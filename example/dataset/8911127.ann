@@ -1,0 +1,43 @@
+T1	Participant 65 93	non-metastatic breast cancer
+T2	Intervention 16 42	psychological intervention
+T4	Outcome 46 61	quality of life
+T5	Intervention 143 169	psychological intervention
+T6	Participant 234 239	women
+T7	Participant 255 268	breast cancer
+T8	Observation 176 193	beneficial effect
+T9	Outcome 201 216	quality of life
+T10	Participant 300 328	non-metastatic breast cancer
+T11	Participant 341 348	surgery
+T12	Participant 353 374	systemic chemotherapy
+T13	Intervention 409 435	psychological intervention
+T14	Intervention 484 512	bimonthly family counselling
+T15	Intervention 438 479	weekly cognitive individual psychotherapy
+T16	Intervention 518 536	standard follow-up
+T23	Intervention 770 793	Cognitive psychotherapy
+T24	Intervention 798 816	family counselling
+T25	Observation 817 825	improved
+T26	Outcome 831 841	depression
+T27	Outcome 846 869	quality of life indexes
+T28	Intervention 888 895	control
+T29	Outcome 911 938	emotional coping behaviours
+T30	Observation 904 910	Better
+T31	Observation 961 973	some changes
+T32	Outcome 977 995	personality traits
+T33	Intervention 1003 1015	intervention
+T34	Outcome 221 230	behaviour
+T3	Outcome 539 568	Personality ( 16-PF and IIQ )
+T17	Outcome 672 686	questionnaires
+R1	to Arg1:T5 Arg2:T8	
+R2	to Arg1:T8 Arg2:T9	
+R3	to Arg1:T8 Arg2:T34	
+T18	Outcome 571 595	quality of life ( FLIC )
+T19	Outcome 602 627	depression ( BDI ) scores
+R4	to Arg1:T24 Arg2:T25	
+R5	to Arg1:T23 Arg2:T25	
+R6	to Arg1:T25 Arg2:T26	
+R7	to Arg1:T25 Arg2:T27	
+R8	to Arg1:T28 Arg2:T25	
+R9	to Arg1:T30 Arg2:T29	
+R10	to Arg1:T31 Arg2:T32	
+R11	to Arg1:T33 Arg2:T31	
+R12	to Arg1:T33 Arg2:T30	
