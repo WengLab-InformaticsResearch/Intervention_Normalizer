@@ -1,0 +1,33 @@
+T1	Outcome 329 346	urinary excretion
+T2	Outcome 277 324	areas under 24-hour plasma concentration curves
+T3	Outcome 261 274	Plasma levels
+T4	Outcome 0 23	Maximal bioavailability
+T5	Intervention 27 65	digoxin from tablets and oral solution
+T6	Intervention 135 163	digoxin from Lanoxin tablets
+T7	Intervention 186 258	international chemical reference substance digoxin from an oral solution
+T8	Observation 352 359	similar
+T9	Intervention 363 380	both formulations
+T10	Count 399 418	78 % of the digoxin
+T11	Intervention 454 461	tablets
+T12	Intervention 480 488	solution
+T13	Count 466 470	76 %
+T14	Outcome 436 444	absorbed
+T15	Outcome 497 533	dissolution in the intestinal fluids
+T16	Observation 491 496	Rapid
+T19	Intervention 587 594	tablets
+T20	Outcome 121 131	absorption
+T21	Outcome 172 182	absorption
+T17	Outcome 556 579	digoxin bioavailability
+R1	to Arg1:T9 Arg2:T8	
+R2	to Arg1:T8 Arg2:T1	
+R3	to Arg1:T8 Arg2:T2	
+R4	to Arg1:T8 Arg2:T3	
+R6	to Arg1:T10 Arg2:T14	
+R5	to Arg1:T11 Arg2:T10	
+R7	to Arg1:T12 Arg2:T13	
+R8	to Arg1:T13 Arg2:T14	
+T18	Observation 551 555	high
+R9	to Arg1:T16 Arg2:T15	
+R10	to Arg1:T18 Arg2:T17	
+R11	to Arg1:T19 Arg2:T18	
+R12	to Arg1:T19 Arg2:T16	
