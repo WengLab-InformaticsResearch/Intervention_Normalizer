@@ -103,10 +103,12 @@ def run(data_file, nlp):
     # extract abbreviation
     print('-' * 25 + 'extracting abbreviations' + '-' * 25)
     abrv = extract_abbreviations(data_file, nlp)
+    print(abrv)
 
     # extract intervention snippets
     print('-' * 25 + 'extracting intervention snippets' + '-' * 25)
     inter = extract_snippets(data_file)
+    print(inter)
 
     # remove parenthesis
     snippets = []

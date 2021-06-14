@@ -1,6 +1,6 @@
 import configure
 import postprocess
-import preprocess
+import preprocess_parser
 import relation_extractor
 import attribute_extractor
 import save_json
@@ -18,8 +18,8 @@ if __name__ == '__main__':
     # configure the spacy
     nlp = configure.spacy_config()
 
-    # preprocess
-    snippets = preprocess.run(data_file, nlp)
+    # preprocess including data input
+    snippets = preprocess_parser.run(data_file, nlp)
 
     # extract treatment entities
     entity_extraction.run(snippets, nlp)

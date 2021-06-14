@@ -1,5 +1,6 @@
 import re
 import os
+import json
 
 
 # read in a raw abstract, find all the abbreviation and corresponding full names, return a dict
@@ -16,12 +17,12 @@ def extract_abbreviations_helper(doc):
 def extract_abbreviations(data_path, nlp):
     abrv = {}
     for file in os.listdir(data_path):
-        if file.endswith(".txt"):
+        if file.endswith(".json"):
             file_path = os.path.join(data_path, file)
             with open(file_path, 'r') as f:
-                text = f.read()
+                text = json.load(f)['abstract']
                 doc = nlp(text)
-                abrv[file.rstrip('.txt')] = extract_abbreviations_helper(doc)
+                abrv[file.rstrip('.json')] = extract_abbreviations_helper(doc)
     return abrv
 
 
@@ -29,18 +30,23 @@ def extract_abbreviations(data_path, nlp):
 def extract_snippets_helper(read_path):
     snippets = []
     with open(read_path) as f_read:
-        for line in f_read:
-            if "Intervention" in line:
-                snippets.append(line.strip())
+        json_f = json.load(f_read)
+        if 'Sentence-level breakdown' not in json_f.keys():
+            return snippets
+        for sents in json_f['Sentence-level breakdown']:
+            if 'Evidence Elements' not in sents.keys():
+                continue
+            for inter in sents['Evidence Elements']['Intervention']:
+                snippets.append(inter)
     return snippets
 
 
 def extract_snippets(data_path):
     inter = {}
     for file in os.listdir(data_path):
-        if file.endswith(".ann"):
+        if file.endswith(".json"):
             file_path = os.path.join(data_path, file)
-            inter[file.rstrip(".ann")] = extract_snippets_helper(file_path)
+            inter[file.rstrip(".json")] = extract_snippets_helper(file_path)
     return inter
 
 
@@ -50,11 +56,11 @@ def extract_snippets(data_path):
 # the return would be a list of snippets, all attributes would be stored in a dict format
 def remove_parenthesis(file_id, abrv, inter):
     snippets = []
-
     for item in inter:
-        snippet = {'file_id': file_id, 'snippet_id': item.split('\t')[0].strip(),
-                   'start_pos': item.split('\t')[1].split(' ')[1].strip(),
-                   'end_pos': item.split('\t')[1].split(' ')[2].strip(), 'raw_text': item.split('\t')[2].strip()}
+        snippet = {'file_id': file_id,
+                   'start_pos': item['start'],
+                   'end_pos': item['end'],
+                   'raw_text': item['term']}
 
         # remove the abbreviation within the parenthesis (including parenthesis).
         processed = snippet['raw_text']
@@ -103,18 +109,20 @@ def run(data_file, nlp):
     # extract abbreviation
     print('-' * 25 + 'extracting abbreviations' + '-' * 25)
     abrv = extract_abbreviations(data_file, nlp)
+    print(abrv)
 
     # extract intervention snippets
     print('-' * 25 + 'extracting intervention snippets' + '-' * 25)
     inter = extract_snippets(data_file)
+    print(inter)
 
     # remove parenthesis
     snippets = []
     print('-' * 25 + 'removing parenthesis' + '-' * 25)
 
     for file in os.listdir(data_file):
-        if file.endswith(".ann"):
-            file_id = file.rstrip('.ann')
+        if file.endswith(".json"):
+            file_id = file.rstrip('.json')
             snippets.extend(remove_parenthesis(file_id, abrv[file_id], inter[file_id]))
 
     # text normalization

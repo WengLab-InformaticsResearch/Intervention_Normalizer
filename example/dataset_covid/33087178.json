@@ -1,0 +1,399 @@
+{
+  "doc_id": "33087178",
+  "type of study": "Therapy",
+  "title": "",
+  "abstract": "Efficacy of an online cognitive behavioral therapy program developed for healthcare workers during the COVID-19 pandemic: the REduction of STress (REST) study protocol for a randomized controlled trial.\nThe acknowledgment of the mental health toll of the COVID-19 epidemic in healthcare workers has increased considerably as the disease evolved into a pandemic status.\nIndeed, high prevalence rates of depression, sleep disorders, and post-traumatic stress disorder (PTSD) have been reported in Chinese healthcare workers during the epidemic peak.\nSymptoms of psychological distress are expected to be long-lasting and have a systemic impact on healthcare systems, warranting the need for evidence-based psychological treatments aiming at relieving immediate stress and preventing the onset of psychological disorders in this population.\nIn the current COVID-19 context, internet-based interventions have the potential to circumvent the pitfalls of face-to-face formats and provide the flexibility required to facilitate accessibility to healthcare workers.\nOnline cognitive behavioral therapy (CBT) in particular has proved to be effective in treating and preventing a number of stress-related disorders in populations other than healthcare workers.\nThe aim of our randomized controlled trial study protocol is to evaluate the efficacy of the 'My Health too' CBT program-a program we have developed for healthcare workers facing the pandemic-on immediate perceived stress and on the emergence of psychiatric disorders at 3- and 6-month follow-up compared to an active control group (i.e., bibliotherapy).\nPowered for superiority testing, this six-site open trial involves the random assignment of 120 healthcare workers with stress levels >\u200916 on the Perceived Stress Scale (PSS-10) to either the 7-session online CBT program or bibliotherapy.\nThe primary outcome is the decrease of PSS-10 scores at 8\u2009weeks.\nSecondary outcomes include depression, insomnia, and PTSD symptoms; self-reported resilience and rumination; and credibility and satisfaction.\nAssessments are scheduled at pretreatment, mid-treatment (at 4\u2009weeks), end of active treatment (at 8\u2009weeks), and at 3-month and 6-month follow-up.\nThis is the first study assessing the efficacy and the acceptability of a brief online CBT program specifically developed for healthcare workers.\nGiven the potential short- and long-term consequences of the COVID-19 pandemic on healthcare workers' mental health, but also on healthcare systems, our findings can significantly impact clinical practice and management of the ongoing, and probably long-lasting, health crisis.\nTRIAL REGISTRATION : ClinicalTrials.gov NCT04362358 , registered on April 24, 2020.\n",
+  "Evidence Map": {
+    "Enrollment": [
+      {
+        "term": "healthcare workers",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 73,
+        "end": 91
+      },
+      {
+        "term": "COVID-19 pandemic",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 103,
+        "end": 120
+      },
+      {
+        "term": "healthcare workers",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 156,
+        "end": 174
+      },
+      {
+        "term": "pandemic-on immediate perceived stress",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 186,
+        "end": 224
+      },
+      {
+        "term": "emergence of psychiatric disorders",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 236,
+        "end": 270
+      },
+      {
+        "term": "healthcare workers",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 97,
+        "end": 115
+      },
+      {
+        "term": "stress levels > 16 on the Perceived Stress Scale ( PSS-10 )",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 121,
+        "end": 180
+      },
+      {
+        "term": "healthcare workers",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 126,
+        "end": 144
+      }
+    ],
+    "Comparison Results": [],
+    "Study Arm 1 Results": [],
+    "Study Arm 2 Results": [],
+    "Hypothesis": []
+  },
+  "Sentence-level breakdown": [
+    {
+      "Section": "TITLE",
+      "Text": "Efficacy of an online cognitive behavioral therapy program developed for healthcare workers during the COVID-19 pandemic : the REduction of STress ( REST ) study protocol for a randomized controlled trial .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "healthcare workers",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 73,
+            "end": 91
+          },
+          {
+            "term": "COVID-19 pandemic",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 103,
+            "end": 120
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "online cognitive behavioral therapy program",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 15,
+            "end": 58
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "The acknowledgment of the mental health toll of the COVID-19 epidemic in healthcare workers has increased considerably as the disease evolved into a pandemic status .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "Indeed , high prevalence rates of depression , sleep disorders , and post-traumatic stress disorder ( PTSD ) have been reported in Chinese healthcare workers during the epidemic peak .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "Symptoms of psychological distress are expected to be long-lasting and have a systemic impact on healthcare systems , warranting the need for evidence-based psychological treatments aiming at relieving immediate stress and preventing the onset of psychological disorders in this population .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "In the current COVID-19 context , internet-based interventions have the potential to circumvent the pitfalls of face-to-face formats and provide the flexibility required to facilitate accessibility to healthcare workers .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "Online cognitive behavioral therapy ( CBT ) in particular has proved to be effective in treating and preventing a number of stress-related disorders in populations other than healthcare workers .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "The aim of our randomized controlled trial study protocol is to evaluate the efficacy of the 'My Health too ' CBT program - a program we have developed for healthcare workers facing the pandemic-on immediate perceived stress and on the emergence of psychiatric disorders at 3- and 6-month follow-up compared to an active control group ( i.e. , bibliotherapy ) .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "healthcare workers",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 156,
+            "end": 174
+          },
+          {
+            "term": "pandemic-on immediate perceived stress",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 186,
+            "end": 224
+          },
+          {
+            "term": "emergence of psychiatric disorders",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 236,
+            "end": 270
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "'My Health too ' CBT program",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 93,
+            "end": 121
+          },
+          {
+            "term": "active control",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 314,
+            "end": 328
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Powered for superiority testing , this six-site open trial involves the random assignment of 120 healthcare workers with stress levels > 16 on the Perceived Stress Scale ( PSS-10 ) to either the 7-session online CBT program or bibliotherapy .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "healthcare workers",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 97,
+            "end": 115
+          },
+          {
+            "term": "stress levels > 16 on the Perceived Stress Scale ( PSS-10 )",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 121,
+            "end": 180
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "7-session online CBT",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 195,
+            "end": 215
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "The primary outcome is the decrease of PSS-10 scores at 8 weeks .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "decrease of PSS-10 scores",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 27,
+            "end": 52
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Secondary outcomes include depression , insomnia , and PTSD symptoms ; self-reported resilience and rumination ; and credibility and satisfaction .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "depression",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 27,
+            "end": 37
+          },
+          {
+            "term": "insomnia",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 40,
+            "end": 48
+          },
+          {
+            "term": "PTSD symptoms",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 55,
+            "end": 68
+          },
+          {
+            "term": "self-reported resilience and rumination",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 71,
+            "end": 110
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Assessments are scheduled at pretreatment , mid-treatment ( at 4 weeks ) , end of active treatment ( at 8 weeks ) , and at 3-month and 6-month follow-up .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "active treatment",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 82,
+            "end": 98
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "DISCUSSION",
+      "Text": "This is the first study assessing the efficacy and the acceptability of a brief online CBT program specifically developed for healthcare workers .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "healthcare workers",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 126,
+            "end": 144
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "brief online CBT program",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 74,
+            "end": 98
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "efficacy",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 38,
+            "end": 46
+          },
+          {
+            "term": "acceptability",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 55,
+            "end": 68
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "DISCUSSION",
+      "Text": "Given the potential short- and long-term consequences of the COVID-19 pandemic on healthcare workers ' mental health , but also on healthcare systems , our findings can significantly impact clinical practice and management of the ongoing , and probably long-lasting , health crisis .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "TRIAL REGISTRATION : ClinicalTrials.gov NCT04362358 , registered on April 24 , 2020 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    }
+  ]
+}

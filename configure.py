@@ -2,10 +2,11 @@ import spacy
 import scispacy
 from scispacy.abbreviation import AbbreviationDetector
 
+# input folder, output folder, resource folder and quickumls folder
 RESOURCE_PATH = "./resource"
-DATA_FILE = "./example/dataset"
-QUICKUMLS_FILE = ""
-SAVE_PATH = "./example/result"
+DATA_FILE = "./example/dataset_covid"
+QUICKUMLS_FILE = "../quickUMLS/quickumls"
+SAVE_PATH = "./example/result_covid"
 
 
 # configure the quickUMLS
