@@ -48,6 +48,7 @@ def convert2standard(snippets):
             components.append(entity['cui'])
             temp_entity = {'text': entity['ngram'], 'maps_to': entity['cui'] + ':' + entity['term']}
             sem_type = sem_map[sem_id[entity['semtypes'][0]]]
+            
 
             if sem_type == 'drug':
                 drug.append(temp_entity)
