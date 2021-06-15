@@ -4,14 +4,13 @@ from scispacy.abbreviation import AbbreviationDetector
 
 # input folder, output folder, resource folder and quickumls folder
 RESOURCE_PATH = "./resource"
-DATA_FILE = "./example/dataset_covid"
-QUICKUMLS_FILE = "../quickUMLS/quickumls"
-SAVE_PATH = "./example/result_covid"
+QUICKUMLS_FILE = "../../quickumls"
 
 
 # configure the quickUMLS
 def quickUMLS_config():
-    drug_types = "T116,T195,T123,T122,T103,T120,T104,T200,T196,T126,T131,T125,T129,T130,T197,T114,T109,T121,T192,T127"
+    # drug_types = "T116,T195,T123,T122,T103,T120,T104,T200,T196,T126,T131,T125,T129,T130,T197,T114,T109,T121,T192,T127"
+    drug_types = "T200, T121"
     procedure_types = "T060,T065,T058,T059,T063,T062,T061"
     device_types = "T203,T074,T075"
     activity_types = "T052,T053,T056,T051,T064,T055,T066,T057,T054"

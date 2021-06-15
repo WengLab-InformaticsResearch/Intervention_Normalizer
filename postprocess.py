@@ -1,3 +1,5 @@
+import copy
+
 import configure
 import os
 
@@ -30,41 +32,22 @@ def get_semtype_id(file):
 
 
 def convert2standard(snippets):
-    sem_id = get_semtype_id(os.path.join(configure.RESOURCE_PATH, 'semGroups.txt'))
+    sem_id = get_semtype_id(os.path.join(configure.RESOURCE_PATH, 'SemGroups.txt'))
 
     sem_map = get_map()
 
     result = []
 
     for snippet in snippets:
-        standard = {'file_id': snippet['file_id'], 'start': snippet['start_pos'], 'end': snippet['end_pos'],
-                    'text': snippet['raw_text']}
         drug = []
         procedure = []
         device = []
         activity = []
-
         components = []
         for entity in snippet['entities']:
             components.append(entity['cui'])
             temp_entity = {'text': entity['ngram'], 'maps_to': entity['cui'] + ':' + entity['term']}
             sem_type = sem_map[sem_id[entity['semtypes'][0]]]
-            del entity['ngram']
-            del entity['term']
-            del entity['cui']
-            del entity['similarity']
-            del entity['semtypes']
-            del entity['preferred']
-            del entity['id']
-
-            # deal with the negation
-            if 'has_negation' not in entity.keys() or len(entity['has_negation']) == 0:
-                entity['has_negation'] = 'affirmed'
-            else:
-                entity['has_negation'] = 'negated'
-
-            for key, value in entity.items():
-                temp_entity[key] = value
 
             if sem_type == 'drug':
                 drug.append(temp_entity)
@@ -76,14 +59,18 @@ def convert2standard(snippets):
                 activity.append(temp_entity)
 
         if len(drug) > 0:
-            standard['has_drug'] = drug
+            snippet['has_drug'] = drug
         if len(procedure) > 0:
-            standard['has_procedure'] = procedure
+            snippet['has_procedure'] = procedure
         if len(device) > 0:
-            standard['has_device'] = device
+            snippet['has_device'] = device
         if len(activity) > 0:
-            standard['has_activity'] = activity
+            snippet['has_activity'] = activity
 
+        del snippet['entities']
+        del snippet['UMLS']
+        del snippet['processed']
+        del snippet['representation']
 
         # add the relation
         if snippet['relation'] == 'N/A':
@@ -116,11 +103,9 @@ def convert2standard(snippets):
             comp = '<->'.join(components)
             relation = 'or (' + comp + ')'
 
-        standard['has_relation'] = relation
-        result.append(standard)
-    return result
+        snippet['has_relation'] = relation
+        del snippet['relation']
 
 
 def run(snippets):
-    snippets = convert2standard(snippets)
-    return snippets
+    convert2standard(snippets)
