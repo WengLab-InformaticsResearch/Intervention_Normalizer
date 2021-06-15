@@ -33,7 +33,7 @@ def extract_relation(snippets):
         # number of treatment entities in the snippet
         entity_num = len(snippet['entities'])
         rep = snippet['representation']
-        print('processing:\t', rep)
+        # print('processing:\t', rep)
         for key, value in rel_map.items():
             if int(key.split('@')[1]) != entity_num:
                 continue

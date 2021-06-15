@@ -127,17 +127,9 @@
           {
             "term": "Early transfusion of convalescent plasma",
             "negation": "affirmed",
+            "UMLS": {},
             "start": 2,
-            "end": 42,
-            "has_procedure": [
-              {
-                "text": "early transfusion",
-                "maps_to": "C0005841:transfusion",
-                "start": 0,
-                "end": 17
-              }
-            ],
-            "has_relation": "N/A"
+            "end": 42
           }
         ],
         "Outcome": [
@@ -179,9 +171,9 @@
           {
             "term": "COVID-19 convalescent plasma ( CCP )",
             "negation": "affirmed",
+            "UMLS": {},
             "start": 45,
-            "end": 81,
-            "has_relation": "N/A"
+            "end": 81
           }
         ],
         "Outcome": [
@@ -215,9 +207,9 @@
           {
             "term": "CCP",
             "negation": "affirmed",
+            "UMLS": {},
             "start": 45,
-            "end": 48,
-            "has_relation": "N/A"
+            "end": 48
           }
         ],
         "Outcome": [
@@ -422,9 +414,9 @@
           {
             "term": "Convalescent Plasma ( CCP ) in addition",
             "negation": "affirmed",
+            "UMLS": {},
             "start": 54,
-            "end": 93,
-            "has_relation": "N/A"
+            "end": 93
           }
         ],
         "Outcome": [],
@@ -442,16 +434,16 @@
           {
             "term": "three doses",
             "negation": "affirmed",
+            "UMLS": {},
             "start": 17,
-            "end": 28,
-            "has_relation": "N/A"
+            "end": 28
           },
           {
             "term": ") of ABO",
             "negation": "affirmed",
+            "UMLS": {},
             "start": 66,
-            "end": 74,
-            "has_relation": "N/A"
+            "end": 74
           }
         ],
         "Outcome": [],
@@ -469,17 +461,9 @@
           {
             "term": "Standard therapy",
             "negation": "affirmed",
+            "UMLS": {},
             "start": 13,
-            "end": 29,
-            "has_procedure": [
-              {
-                "text": "standard therapy",
-                "maps_to": "C2936643:standard therapy",
-                "start": 0,
-                "end": 16
-              }
-            ],
-            "has_relation": "N/A"
+            "end": 29
           }
         ],
         "Outcome": [

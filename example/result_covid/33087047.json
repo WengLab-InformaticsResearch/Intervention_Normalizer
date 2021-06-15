@@ -1,1 +1,619 @@
-{"doc_id": "33087047", "type of study": "Therapy", "title": "", "abstract": "The use of intravenous immunoglobulin gamma for the treatment of severe coronavirus disease 2019: a randomized placebo-controlled double-blind clinical trial.\nCoronavirus disease 2019 (COVID-19) has infected people in many countries worldwide.\nDiscovering an effective treatment for this disease, particularly in severe cases, has become the subject of intense scientific investigation.\nTherefore, the objective of this study was to evaluate the efficacy of intravenous immunoglobulin (IVIg) in patients with severe COVID-19 infection.\nThis study was conducted as a randomized placebo-controlled double-blind clinical trial.\nFifty-nine patients with severe COVID-19 infection who did not respond to initial treatments were randomly assigned into two groups.\nOne group received IVIg (human)-four vials daily for 3 days (in addition to initial treatment), while the other group received a placebo.\nPatients' demographic, clinical, and select laboratory test results, as well as the occurrence of in-hospital mortality, were recorded.\nAmong total study subjects, 30 patients received IVIg and 29 patients received a placebo.\nDemographics, clinical characteristics, and laboratory tests were not statistically different (P\u2009>\u20090.05) between the two groups.\nThe in-hospital mortality rate was significantly lower in the IVIg group compared to the control group (6 [20.0%] vs. 14 [48.3%], respectively; P\u2009=\u20090.022).\nMultivariate regression analysis demonstrated that administration of IVIg did indeed have a significant impact on mortality rate (aOR\u2009=\u20090.003 [95% CI: 0.001-0.815]; P\u2009=\u20090.042).\nOur study demonstrated that the administration of IVIg in patients with severe COVID-19 infection who did not respond to initial treatment could improve their clinical outcome and significantly reduce mortality rate.\nFurther multicenter studies with larger sample sizes are nonetheless required to confirm the appropriateness of this medication as a standard treatment.\nTRIAL REGISTRATION : A study protocol was registered at the Iranian Registry of Clinical Trials ( www.IRCT.ir ), number IRCT20200501047259N1 .\nIt was registered retrospectively on May 17th, 2020.\n", "Evidence Map": {"Enrollment": [{"term": "severe coronavirus disease", "negation": "affirmed", "UMLS": {}, "start": 65, "end": 91}, {"term": "severe COVID-19 infection", "negation": "affirmed", "UMLS": {}, "start": 25, "end": 50}, {"term": "severe COVID-19 infection", "negation": "affirmed", "UMLS": {}, "start": 72, "end": 97}], "Comparison Results": [], "Study Arm 1 Results": [], "Study Arm 2 Results": [], "Hypothesis": []}, "Sentence-level breakdown": [{"Section": "TITLE", "Text": "The use of intravenous immunoglobulin gamma for the treatment of severe coronavirus disease 2019 : a randomized placebo-controlled double-blind clinical trial .", "Evidence Elements": {"Participant": [{"term": "severe coronavirus disease", "negation": "affirmed", "UMLS": {}, "start": 65, "end": 91}], "Intervention": [{"term": "intravenous immunoglobulin gamma", "negation": "affirmed", "start": 11, "end": 43, "has_drug": [{"text": "intravenous immunoglobulin", "maps_to": "C0085297:intravenous immunoglobulin", "start": 0, "end": 26, "has_route": ["intravenous"]}], "has_relation": "N/A"}], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "BACKGROUND", "Text": "Coronavirus disease 2019 ( COVID-19 ) has infected people in many countries worldwide .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "BACKGROUND", "Text": "Discovering an effective treatment for this disease , particularly in severe cases , has become the subject of intense scientific investigation .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "BACKGROUND", "Text": "Therefore , the objective of this study was to evaluate the efficacy of intravenous immunoglobulin ( IVIg ) in patients with severe COVID-19 infection .", "Evidence Elements": {"Participant": [], "Intervention": [{"term": "intravenous immunoglobulin ( IVIg )", "negation": "affirmed", "start": 72, "end": 107, "has_drug": [{"text": "intravenous immunoglobulin", "maps_to": "C0085297:intravenous immunoglobulin", "start": 0, "end": 26, "has_route": ["intravenous"]}], "has_relation": "N/A"}], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "METHODS", "Text": "This study was conducted as a randomized placebo-controlled double-blind clinical trial .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "METHODS", "Text": "Fifty-nine patients with severe COVID-19 infection who did not respond to initial treatments were randomly assigned into two groups .", "Evidence Elements": {"Participant": [{"term": "severe COVID-19 infection", "negation": "affirmed", "UMLS": {}, "start": 25, "end": 50}], "Intervention": [], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "METHODS", "Text": "One group received IVIg ( human ) -four vials daily for 3 days ( in addition to initial treatment ) , while the other group received a placebo .", "Evidence Elements": {"Participant": [], "Intervention": [{"term": "IVIg ( human )", "negation": "affirmed", "start": 19, "end": 33, "has_drug": [{"text": "intravenous immunoglobulin", "maps_to": "C0085297:intravenous immunoglobulin", "start": 0, "end": 26, "has_route": ["intravenous"]}], "has_relation": "N/A"}], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "METHODS", "Text": "Patients ' demographic , clinical , and select laboratory test results , as well as the occurrence of in-hospital mortality , were recorded .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [{"term": "occurrence of", "negation": "affirmed", "UMLS": {}, "start": 88, "end": 101}], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "RESULTS", "Text": "Among total study subjects , 30 patients received IVIg and 29 patients received a placebo .", "Evidence Elements": {"Participant": [], "Intervention": [{"term": "IVIg", "negation": "affirmed", "start": 50, "end": 54, "has_drug": [{"text": "intravenous immunoglobulin", "maps_to": "C0085297:intravenous immunoglobulin", "start": 0, "end": 26, "has_route": ["intravenous"]}], "has_relation": "N/A"}], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "RESULTS", "Text": "Demographics , clinical characteristics , and laboratory tests were not statistically different ( P > 0.05 ) between the two groups .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [{"term": "clinical characteristics", "negation": "affirmed", "UMLS": {}, "start": 15, "end": 39}, {"term": "laboratory tests", "negation": "affirmed", "UMLS": {}, "start": 46, "end": 62}], "Observation": [{"term": "statistically different", "negation": "negated", "UMLS": {}, "start": 72, "end": 95}], "Count": []}, "Evidence Propositions": [{"Intervention": [], "Observation": "statistically different", "Outcome": "clinical characteristics", "Count": ""}, {"Intervention": [], "Observation": "statistically different", "Outcome": "laboratory tests", "Count": ""}]}, {"Section": "RESULTS", "Text": "The in-hospital mortality rate was significantly lower in the IVIg group compared to the control group ( 6 [ 20.0 % ] vs . 14 [ 48.3 % ] , respectively ; P = 0.022 ) .", "Evidence Elements": {"Participant": [], "Intervention": [{"term": "IVIg", "negation": "affirmed", "start": 62, "end": 66, "has_drug": [{"text": "intravenous immunoglobulin", "maps_to": "C0085297:intravenous immunoglobulin", "start": 0, "end": 26, "has_route": ["intravenous"]}], "has_relation": "N/A"}, {"term": "control", "negation": "affirmed", "start": 89, "end": 96, "has_relation": "N/A"}], "Outcome": [{"term": "in-hospital mortality rate", "negation": "affirmed", "UMLS": {}, "start": 4, "end": 30}], "Observation": [{"term": "significantly lower", "negation": "affirmed", "UMLS": {}, "start": 35, "end": 54}, {"term": "6 [ 20.0 % ]", "negation": "affirmed", "UMLS": {}, "start": 105, "end": 117}, {"term": "14", "negation": "affirmed", "UMLS": {}, "start": 123, "end": 125}], "Count": []}, "Evidence Propositions": [{"Intervention": ["IVIg", "control"], "Observation": "significantly lower", "Outcome": "in-hospital mortality rate", "Count": ""}, {"Intervention": "IVIg", "Observation": "6 [ 20.0 % ]", "Outcome": "in-hospital mortality rate", "Count": ""}, {"Intervention": "control", "Observation": "14", "Outcome": "in-hospital mortality rate", "Count": ""}]}, {"Section": "RESULTS", "Text": "Multivariate regression analysis demonstrated that administration of IVIg did indeed have a significant impact on mortality rate ( aOR = 0.003 [ 95 % CI : 0.001-0.815 ] ; P = 0.042 ) .", "Evidence Elements": {"Participant": [], "Intervention": [{"term": "IVIg", "negation": "affirmed", "start": 69, "end": 73, "has_drug": [{"text": "intravenous immunoglobulin", "maps_to": "C0085297:intravenous immunoglobulin", "start": 0, "end": 26, "has_route": ["intravenous"]}], "has_relation": "N/A"}], "Outcome": [{"term": "mortality rate", "negation": "affirmed", "UMLS": {}, "start": 114, "end": 128}], "Observation": [{"term": "significant impact", "negation": "affirmed", "UMLS": {}, "start": 92, "end": 110}], "Count": []}, "Evidence Propositions": [{"Intervention": "IVIg", "Observation": "significant impact", "Outcome": "mortality rate", "Count": ""}]}, {"Section": "CONCLUSIONS", "Text": "Our study demonstrated that the administration of IVIg in patients with severe COVID-19 infection who did not respond to initial treatment could improve their clinical outcome and significantly reduce mortality rate .", "Evidence Elements": {"Participant": [{"term": "severe COVID-19 infection", "negation": "affirmed", "UMLS": {}, "start": 72, "end": 97}], "Intervention": [{"term": "IVIg", "negation": "affirmed", "start": 50, "end": 54, "has_drug": [{"text": "intravenous immunoglobulin", "maps_to": "C0085297:intravenous immunoglobulin", "start": 0, "end": 26, "has_route": ["intravenous"]}], "has_relation": "N/A"}], "Outcome": [{"term": "clinical outcome", "negation": "negated", "UMLS": {}, "start": 159, "end": 175}, {"term": "mortality rate", "negation": "negated", "UMLS": {}, "start": 201, "end": 215}], "Observation": [{"term": "improve", "negation": "negated", "UMLS": {}, "start": 145, "end": 152}, {"term": "significantly reduce", "negation": "negated", "UMLS": {}, "start": 180, "end": 200}], "Count": []}, "Evidence Propositions": [{"Intervention": "IVIg", "Observation": "improve", "Outcome": "clinical outcome", "Count": ""}]}, {"Section": "CONCLUSIONS", "Text": "Further multicenter studies with larger sample sizes are nonetheless required to confirm the appropriateness of this medication as a standard treatment .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "UNKNOWN", "Text": "TRIAL REGISTRATION : A study protocol was registered at the Iranian Registry of Clinical Trials ( www . IRCT.ir ) , number IRCT20200501047259N1 .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}, {"Section": "UNKNOWN", "Text": "It was registered retrospectively on May 17th , 2020 .", "Evidence Elements": {"Participant": [], "Intervention": [], "Outcome": [], "Observation": [], "Count": []}, "Evidence Propositions": []}]}
+{
+  "doc_id": "33087047",
+  "type of study": "Therapy",
+  "title": "",
+  "abstract": "The use of intravenous immunoglobulin gamma for the treatment of severe coronavirus disease 2019: a randomized placebo-controlled double-blind clinical trial.\nCoronavirus disease 2019 (COVID-19) has infected people in many countries worldwide.\nDiscovering an effective treatment for this disease, particularly in severe cases, has become the subject of intense scientific investigation.\nTherefore, the objective of this study was to evaluate the efficacy of intravenous immunoglobulin (IVIg) in patients with severe COVID-19 infection.\nThis study was conducted as a randomized placebo-controlled double-blind clinical trial.\nFifty-nine patients with severe COVID-19 infection who did not respond to initial treatments were randomly assigned into two groups.\nOne group received IVIg (human)-four vials daily for 3 days (in addition to initial treatment), while the other group received a placebo.\nPatients' demographic, clinical, and select laboratory test results, as well as the occurrence of in-hospital mortality, were recorded.\nAmong total study subjects, 30 patients received IVIg and 29 patients received a placebo.\nDemographics, clinical characteristics, and laboratory tests were not statistically different (P\u2009>\u20090.05) between the two groups.\nThe in-hospital mortality rate was significantly lower in the IVIg group compared to the control group (6 [20.0%] vs. 14 [48.3%], respectively; P\u2009=\u20090.022).\nMultivariate regression analysis demonstrated that administration of IVIg did indeed have a significant impact on mortality rate (aOR\u2009=\u20090.003 [95% CI: 0.001-0.815]; P\u2009=\u20090.042).\nOur study demonstrated that the administration of IVIg in patients with severe COVID-19 infection who did not respond to initial treatment could improve their clinical outcome and significantly reduce mortality rate.\nFurther multicenter studies with larger sample sizes are nonetheless required to confirm the appropriateness of this medication as a standard treatment.\nTRIAL REGISTRATION : A study protocol was registered at the Iranian Registry of Clinical Trials ( www.IRCT.ir ), number IRCT20200501047259N1 .\nIt was registered retrospectively on May 17th, 2020.\n",
+  "Evidence Map": {
+    "Enrollment": [
+      {
+        "term": "severe coronavirus disease",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 65,
+        "end": 91
+      },
+      {
+        "term": "severe COVID-19 infection",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 25,
+        "end": 50
+      },
+      {
+        "term": "severe COVID-19 infection",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 72,
+        "end": 97
+      }
+    ],
+    "Comparison Results": [],
+    "Study Arm 1 Results": [],
+    "Study Arm 2 Results": [],
+    "Hypothesis": []
+  },
+  "Sentence-level breakdown": [
+    {
+      "Section": "TITLE",
+      "Text": "The use of intravenous immunoglobulin gamma for the treatment of severe coronavirus disease 2019 : a randomized placebo-controlled double-blind clinical trial .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "severe coronavirus disease",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 65,
+            "end": 91
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "intravenous immunoglobulin gamma",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 11,
+            "end": 43,
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "Coronavirus disease 2019 ( COVID-19 ) has infected people in many countries worldwide .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "Discovering an effective treatment for this disease , particularly in severe cases , has become the subject of intense scientific investigation .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "Therefore , the objective of this study was to evaluate the efficacy of intravenous immunoglobulin ( IVIg ) in patients with severe COVID-19 infection .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "intravenous immunoglobulin ( IVIg )",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 72,
+            "end": 107,
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "This study was conducted as a randomized placebo-controlled double-blind clinical trial .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Fifty-nine patients with severe COVID-19 infection who did not respond to initial treatments were randomly assigned into two groups .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "severe COVID-19 infection",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 25,
+            "end": 50
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "One group received IVIg ( human ) -four vials daily for 3 days ( in addition to initial treatment ) , while the other group received a placebo .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "IVIg ( human )",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 19,
+            "end": 33,
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Patients ' demographic , clinical , and select laboratory test results , as well as the occurrence of in-hospital mortality , were recorded .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "occurrence of",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 88,
+            "end": 101
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "Among total study subjects , 30 patients received IVIg and 29 patients received a placebo .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "IVIg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 50,
+            "end": 54,
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "Demographics , clinical characteristics , and laboratory tests were not statistically different ( P > 0.05 ) between the two groups .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "clinical characteristics",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 15,
+            "end": 39
+          },
+          {
+            "term": "laboratory tests",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 46,
+            "end": 62
+          }
+        ],
+        "Observation": [
+          {
+            "term": "statistically different",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 72,
+            "end": 95
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": [],
+          "Observation": "statistically different",
+          "Outcome": "clinical characteristics",
+          "Count": ""
+        },
+        {
+          "Intervention": [],
+          "Observation": "statistically different",
+          "Outcome": "laboratory tests",
+          "Count": ""
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "The in-hospital mortality rate was significantly lower in the IVIg group compared to the control group ( 6 [ 20.0 % ] vs . 14 [ 48.3 % ] , respectively ; P = 0.022 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "IVIg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 62,
+            "end": 66,
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          },
+          {
+            "term": "control",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 89,
+            "end": 96,
+            "has_relation": "N/A"
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "in-hospital mortality rate",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 4,
+            "end": 30
+          }
+        ],
+        "Observation": [
+          {
+            "term": "significantly lower",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 35,
+            "end": 54
+          },
+          {
+            "term": "6 [ 20.0 % ]",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 105,
+            "end": 117
+          },
+          {
+            "term": "14",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 123,
+            "end": 125
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": [
+            {
+              "term": "IVIg",
+              "has_drug": [
+                {
+                  "text": "intravenous immunoglobulin",
+                  "maps_to": "C0085297:intravenous immunoglobulin",
+                  "start": 0,
+                  "end": 26,
+                  "has_route": [
+                    "intravenous"
+                  ]
+                }
+              ],
+              "has_relation": "N/A"
+            },
+            {
+              "term": "control",
+              "has_relation": "N/A"
+            }
+          ],
+          "Observation": "significantly lower",
+          "Outcome": "in-hospital mortality rate",
+          "Count": ""
+        },
+        {
+          "Intervention": {
+            "term": "IVIg",
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          },
+          "Observation": "6 [ 20.0 % ]",
+          "Outcome": "in-hospital mortality rate",
+          "Count": ""
+        },
+        {
+          "Intervention": {
+            "term": "control",
+            "has_relation": "N/A"
+          },
+          "Observation": "14",
+          "Outcome": "in-hospital mortality rate",
+          "Count": ""
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "Multivariate regression analysis demonstrated that administration of IVIg did indeed have a significant impact on mortality rate ( aOR = 0.003 [ 95 % CI : 0.001-0.815 ] ; P = 0.042 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "IVIg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 69,
+            "end": 73,
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "mortality rate",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 114,
+            "end": 128
+          }
+        ],
+        "Observation": [
+          {
+            "term": "significant impact",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 92,
+            "end": 110
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": {
+            "term": "IVIg",
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          },
+          "Observation": "significant impact",
+          "Outcome": "mortality rate",
+          "Count": ""
+        }
+      ]
+    },
+    {
+      "Section": "CONCLUSIONS",
+      "Text": "Our study demonstrated that the administration of IVIg in patients with severe COVID-19 infection who did not respond to initial treatment could improve their clinical outcome and significantly reduce mortality rate .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "severe COVID-19 infection",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 72,
+            "end": 97
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "IVIg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 50,
+            "end": 54,
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "clinical outcome",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 159,
+            "end": 175
+          },
+          {
+            "term": "mortality rate",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 201,
+            "end": 215
+          }
+        ],
+        "Observation": [
+          {
+            "term": "improve",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 145,
+            "end": 152
+          },
+          {
+            "term": "significantly reduce",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 180,
+            "end": 200
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": {
+            "term": "IVIg",
+            "has_drug": [
+              {
+                "text": "intravenous immunoglobulin",
+                "maps_to": "C0085297:intravenous immunoglobulin",
+                "start": 0,
+                "end": 26,
+                "has_route": [
+                  "intravenous"
+                ]
+              }
+            ],
+            "has_relation": "N/A"
+          },
+          "Observation": "improve",
+          "Outcome": "clinical outcome",
+          "Count": ""
+        }
+      ]
+    },
+    {
+      "Section": "CONCLUSIONS",
+      "Text": "Further multicenter studies with larger sample sizes are nonetheless required to confirm the appropriateness of this medication as a standard treatment .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "TRIAL REGISTRATION : A study protocol was registered at the Iranian Registry of Clinical Trials ( www . IRCT.ir ) , number IRCT20200501047259N1 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "It was registered retrospectively on May 17th , 2020 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    }
+  ]
+}

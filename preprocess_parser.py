@@ -26,10 +26,24 @@ def extract_snippets(json_f):
     if 'Sentence-level breakdown' not in json_f.keys():
         return snippets
     for sents in json_f['Sentence-level breakdown']:
-        if 'Evidence Elements' not in sents.keys():
-            continue
-        for inter in sents['Evidence Elements']['Intervention']:
-            snippets.append(inter)
+        if 'Evidence Elements' in sents.keys():
+            for inter in sents['Evidence Elements']['Intervention']:
+                snippets.append(inter)
+        if 'Evidence Propositions' in sents.keys():
+            for element in sents['Evidence Propositions']:
+                if 'Intervention' not in element.keys():
+                    continue
+                if type(element['Intervention']) == str:
+                    element['Intervention'] = {
+                        'term': element['Intervention']
+                    }
+                    snippets.append(element['Intervention'])
+                if type(element['Intervention']) == list:
+                    for i in range(len(element['Intervention'])):
+                        element['Intervention'][i] = {
+                            'term': element['Intervention'][i]
+                        }
+                        snippets.append(element['Intervention'][i])
 
     return snippets
 
@@ -83,21 +97,21 @@ def run(input_file, nlp):
     json_f = json.load(open(input_file, 'r'))
 
     # extract abbreviation
-    print('-' * 25 + 'extracting abbreviations' + '-' * 25)
+    # print('-' * 25 + 'extracting abbreviations' + '-' * 25)
     abrv = extract_abbreviations(json_f, nlp)
-    print(abrv)
+    # print(abrv)
 
     # extract intervention snippets
-    print('-' * 25 + 'extracting intervention snippets' + '-' * 25)
+    # print('-' * 25 + 'extracting intervention snippets' + '-' * 25)
     inter = extract_snippets(json_f)
-    print(inter)
+    # print(inter)
 
     # remove parenthesis
-    print('-' * 25 + 'removing parenthesis' + '-' * 25)
+    # print('-' * 25 + 'removing parenthesis' + '-' * 25)
     remove_parenthesis(abrv, inter)
 
     # text normalization
-    print('-' * 25 + 'normalizing text' + '-' * 25)
+    # print('-' * 25 + 'normalizing text' + '-' * 25)
     for snippet in inter:
         snippet['processed'] = normalize_text(snippet['processed'])
     return inter, json_f

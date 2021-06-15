@@ -1,0 +1,1050 @@
+{
+  "doc_id": "33106167",
+  "type of study": "Therapy",
+  "title": "",
+  "abstract": "Convalescent plasma transfusion therapy in severe COVID-19 patients- a safety, efficacy and dose response study: A structured summary of a study protocol of a phase II randomized controlled trial.\nGeneral: To assess the safety, efficacy and dose response of convalescent plasma (CP) transfusion in severe COVID-19 patients Specific: a. To identify the appropriate effective dose of CP therapy in severe patients b. To identify the efficacy of the therapy with their end point based on clinical improvement within seven days of treatment or until discharge whichever is later and in-hospital mortality c. To assess the clinical improvement after CP transfusion in severe COVID-19 patients d. To assess the laboratory improvement after CP transfusion in severe COVID-19 patients TRIAL DESIGN: This is a multicentre, multi-arm phase II Randomised Controlled Trial.\nAge and sex matched COVID-19 positive (by RT-PCR) severe cases will be enrolled in this trial.\nSevere case is defined by the World Health Organization (W.H.O) clinical case definition.\nThe inclusion criteria are 1.\nRespiratory rate > 30 breaths/min; PLUS 2.\nSevere respiratory distress; or SpO2 \u2264 88% on room air or PaO2/FiO2\u2264 300 mm of Hg, PLUS 3.\nRadiological (X-ray or CT scan) evidence of bilateral lung infiltrate, AND OR 4.\nSystolic BP < 90 mm of Hg or diastolic BP <60 mm of Hg.\nAND/OR 5.\nCriteria 1 to 4 AND or patient in ventilator support Patients' below18 years, pregnant and lactating women, previous history of allergic reaction to plasma, patients who have already received plasma from a different source will be excluded.\nPatients will be enrolled at Bangabandhu Sheikh Mujib Medical University (BSMMU) hospital, Dhaka medical college hospital (DMCH) and Mugda medical college hospital (MuMCH).\nApheretic plasma will be collected at the transfusion medicine department of SHNIBPS hospital, ELISA antibody titre will be done at BSMMU and\u00a0CMBT and neutralizing antibody titre will be checked in collaboration with the University of Oxford.\nPatients who have recovered from COVID-19 will be recruited as donors of CP.\nThe recovery criteria are normality of body temperature for more than 3 days, resolution of respiratory symptoms, two consecutively negative results of sputum SARS-CoV-2 by RT-PCR assay (at least 24 hours apart) 22 to 35 days of post onset period, and neutralizing\u00a0antibody titre \u2265 1:160.\nINTERVENTION AND COMPARATOR : This RCT consists of three arms, a. standard care, b. standard care and 200 ml CP and c. standard care and 400 ml CP.\nPatients will receive plasma as a single transfusion.\nIntervention arms will be compared to the standard care arm.\nMAIN OUTCOMES : The primary outcome will be time to clinical improvement within seven days of treatment or until discharge whichever is later and in-hospital mortality.\nThe secondary outcome would be improvement of laboratory parameters after therapy (neutrophil, lymphocyte ratio, CRP, serum ferritin, SGPT, SGOT, serum creatinine and radiology), length of hospital stay, length of ICU stay, reduction in proportion of deaths, requirement of ventilator and duration of oxygen and ventilator support.\nRandomization will be done by someone not associated with the care or assessment of the patients by means of a computer generated random number table using an allocation ratio of 1:1:1.\nBLINDING (MASKING) : This is an open level study; neither the physician nor the patients will be blinded.\nHowever, the primary and secondary outcome (oxygen saturations, PaO2/FiO2, BP, day specific laboratory tests) will be recorded using an objective automated method; the study staff will not be able to influence the recording of these data.\nNUMBER TO BE RANDOMISED (SAMPLE SIZE) : No similar study has been performed previously.\nTherefore no data are available that could be used to generate a sample size calculation.\nThis phase II study is required to provide some initial data on efficacy and safety that will allow design of a larger study.\nThe trial will recruit 60 participants (20 in each arm).\nTRIAL STATUS : Protocol version 1.4 dated May 5, 2020 and amended version 1.5, dated June 16, 2020.\nFirst case was recruited on May 27, 2020.\nBy August 10, 2020, the trial had recruited one-third (21 out of 60) of the participants.\nThe recruitment is expected to finish by October 31, 2020.\nTRIAL REGISTRATION : Clinicaltrials.gov ID: NCT04403477 .\nRegistered 26 May, 2020 FULL PROTOCOL: The full protocol is attached as an additional file, accessible from the Trial's website (Additional file 1).\nIn the interest in expediting dissemination of this material, the familiar formatting has been eliminated; this letter serves as a summary of the key elements of the full protocol.\n",
+  "Evidence Map": {
+    "Enrollment": [
+      {
+        "term": "severe COVID-19",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 43,
+        "end": 58
+      },
+      {
+        "term": "severe COVID-19",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 105,
+        "end": 120
+      },
+      {
+        "term": "severe",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 105,
+        "end": 111
+      },
+      {
+        "term": "severe COVID-19",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 105,
+        "end": 120
+      },
+      {
+        "term": "severe COVID-19",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 105,
+        "end": 120
+      },
+      {
+        "term": "Age",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 0,
+        "end": 3
+      },
+      {
+        "term": "matched COVID-19 positive ( by RT-PCR ) severe",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 12,
+        "end": 58
+      },
+      {
+        "term": "Severe respiratory distress",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 0,
+        "end": 27
+      },
+      {
+        "term": "SpO2 \u2264 88 % on room air",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 33,
+        "end": 56
+      },
+      {
+        "term": "FiO2 ##\u2264 300 mm of",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 67,
+        "end": 85
+      },
+      {
+        "term": "ventilator support",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 34,
+        "end": 52
+      },
+      {
+        "term": "pregnant",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 80,
+        "end": 88
+      },
+      {
+        "term": "lactating women",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 93,
+        "end": 108
+      },
+      {
+        "term": "previous history of allergic reaction to plasma",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 111,
+        "end": 158
+      },
+      {
+        "term": "plasma from",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 196,
+        "end": 207
+      },
+      {
+        "term": "recovered",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 18,
+        "end": 27
+      },
+      {
+        "term": "COVID-19",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 33,
+        "end": 41
+      }
+    ],
+    "Comparison Results": [],
+    "Study Arm 1 Results": [],
+    "Study Arm 2 Results": [],
+    "Hypothesis": []
+  },
+  "Sentence-level breakdown": [
+    {
+      "Section": "TITLE",
+      "Text": "Convalescent plasma transfusion therapy in severe COVID-19 patients - a safety , efficacy and dose response study : A structured summary of a study protocol of a phase II randomized controlled trial .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "severe COVID-19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 43,
+            "end": 58
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "Convalescent plasma transfusion therapy",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 39
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "safety",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 72,
+            "end": 78
+          },
+          {
+            "term": "efficacy",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 81,
+            "end": 89
+          },
+          {
+            "term": "dose response",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 94,
+            "end": 107
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "OBJECTIVES",
+      "Text": "General : To assess the safety , efficacy and dose response of convalescent plasma ( CP ) transfusion in severe COVID-19 patients Specific : a . To identify the appropriate effective dose of CP therapy in severe patients b . To identify the efficacy of the therapy with their end point based on clinical improvement within seven days of treatment or until discharge whichever is later and in-hospital mortality c . To assess the clinical improvement after CP transfusion in severe COVID-19 patients d . To assess the laboratory improvement after CP transfusion in severe COVID-19 patients TRIAL DESIGN : This is a multicentre, multi-arm phase II Randomised Controlled Trial .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "severe COVID-19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 105,
+            "end": 120
+          },
+          {
+            "term": "severe",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 105,
+            "end": 111
+          },
+          {
+            "term": "severe COVID-19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 105,
+            "end": 120
+          },
+          {
+            "term": "severe COVID-19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 105,
+            "end": 120
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "convalescent plasma ( CP ) transfusion",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 63,
+            "end": 101
+          },
+          {
+            "term": "CP therapy",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 191,
+            "end": 201
+          },
+          {
+            "term": "CP transfusion",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 456,
+            "end": 470
+          },
+          {
+            "term": "CP transfusion",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 456,
+            "end": 470
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "safety",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 24,
+            "end": 30
+          },
+          {
+            "term": "efficacy",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 33,
+            "end": 41
+          },
+          {
+            "term": "dose response",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 46,
+            "end": 59
+          },
+          {
+            "term": "appropriate effective dose",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 161,
+            "end": 187
+          },
+          {
+            "term": "efficacy",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 33,
+            "end": 41
+          },
+          {
+            "term": "clinical improvement",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 295,
+            "end": 315
+          },
+          {
+            "term": "clinical improvement",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 295,
+            "end": 315
+          },
+          {
+            "term": "laboratory improvement",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 517,
+            "end": 539
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Age and sex matched COVID-19 positive ( by RT-PCR ) severe cases will be enrolled in this trial .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "Age",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 3
+          },
+          {
+            "term": "matched COVID-19 positive ( by RT-PCR ) severe",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 12,
+            "end": 58
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Severe case is defined by the World Health Organization ( W.H.O ) clinical case definition .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "Severe case",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 11
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "The inclusion criteria are 1 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Respiratory rate > 30 breaths / min ; PLUS 2 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "Respiratory rate",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 16
+          }
+        ],
+        "Observation": [
+          {
+            "term": "min",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 32,
+            "end": 35
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Severe respiratory distress ; or SpO2 \u2264 88 % on room air or PaO2 / FiO2 ##\u2264 300 mm of Hg , PLUS 3 .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "Severe respiratory distress",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 27
+          },
+          {
+            "term": "SpO2 \u2264 88 % on room air",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 33,
+            "end": 56
+          },
+          {
+            "term": "FiO2 ##\u2264 300 mm of",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 67,
+            "end": 85
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Radiological ( X-ray or CT scan ) evidence of bilateral lung infiltrate , AND OR 4 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "bilateral lung infiltrate",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 46,
+            "end": 71
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Systolic BP < 90 mm of Hg or diastolic BP < 60 mm of Hg .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "AND /OR 5 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Criteria 1 to 4 AND or patient in ventilator support Patients ' below18 years , pregnant and lactating women , previous history of allergic reaction to plasma , patients who have already received plasma from a different source will be excluded .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "ventilator support",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 34,
+            "end": 52
+          },
+          {
+            "term": "pregnant",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 80,
+            "end": 88
+          },
+          {
+            "term": "lactating women",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 93,
+            "end": 108
+          },
+          {
+            "term": "previous history of allergic reaction to plasma",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 111,
+            "end": 158
+          },
+          {
+            "term": "plasma from",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 196,
+            "end": 207
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Patients will be enrolled at Bangabandhu Sheikh Mujib Medical University ( BSMMU ) hospital , Dhaka medical college hospital ( DMCH ) and Mugda medical college hospital ( MuMCH ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Apheretic plasma will be collected at the transfusion medicine department of SHNIBPS hospital , ELISA antibody titre will be done at BSMMU and CMBT and neutralizing antibody titre will be checked in collaboration with the University of Oxford .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "antibody titre",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 102,
+            "end": 116
+          },
+          {
+            "term": "neutralizing antibody titre",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 152,
+            "end": 179
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "Patients who have recovered from COVID-19 will be recruited as donors of CP .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "recovered",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 18,
+            "end": 27
+          },
+          {
+            "term": "COVID-19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 33,
+            "end": 41
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "CP",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 73,
+            "end": 75
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "PARTICIPANTS",
+      "Text": "The recovery criteria are normality of body temperature for more than 3 days , resolution of respiratory symptoms , two consecutively negative results of sputum SARS-CoV-2 by RT-PCR assay ( at least 24 hours apart ) 22 to 35 days of post onset period , and neutralizing antibody titre \u2265 1:160 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "resolution of respiratory symptoms",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 79,
+            "end": 113
+          },
+          {
+            "term": "of sputum SARS-CoV-2",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 151,
+            "end": 171
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "INTERVENTION AND COMPARATOR : This RCT consists of three arms , a . standard care , b . standard care and 200 ml CP and c . standard care and 400 ml CP .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "standard care",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 68,
+            "end": 81
+          },
+          {
+            "term": "standard care",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 68,
+            "end": 81
+          },
+          {
+            "term": "200 ml CP",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 106,
+            "end": 115
+          },
+          {
+            "term": "standard",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 68,
+            "end": 76
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "Patients will receive plasma as a single transfusion .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "plasma",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 22,
+            "end": 28
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "Intervention arms will be compared to the standard care arm .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "standard care",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 42,
+            "end": 55
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "MAIN OUTCOMES : The primary outcome will be time to clinical improvement within seven days of treatment or until discharge whichever is later and in-hospital mortality .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "time to clinical improvement",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 44,
+            "end": 72
+          },
+          {
+            "term": "discharge",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 113,
+            "end": 122
+          },
+          {
+            "term": "in-hospital mortality",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 146,
+            "end": 167
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "The secondary outcome would be improvement of laboratory parameters after therapy ( neutrophil , lymphocyte ratio , CRP , serum ferritin , SGPT , SGOT , serum creatinine and radiology ) , length of hospital stay , length of ICU stay , reduction in proportion of deaths , requirement of ventilator and duration of oxygen and ventilator support .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "laboratory parameters",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 46,
+            "end": 67
+          },
+          {
+            "term": "neutrophil",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 84,
+            "end": 94
+          },
+          {
+            "term": "lymphocyte ratio",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 97,
+            "end": 113
+          },
+          {
+            "term": "CRP",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 116,
+            "end": 119
+          },
+          {
+            "term": "serum ferritin",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 122,
+            "end": 136
+          },
+          {
+            "term": "SGPT",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 139,
+            "end": 143
+          },
+          {
+            "term": "SGOT",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 146,
+            "end": 150
+          },
+          {
+            "term": "serum creatinine",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 153,
+            "end": 169
+          },
+          {
+            "term": "radiology",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 174,
+            "end": 183
+          },
+          {
+            "term": "length of hospital stay",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 188,
+            "end": 211
+          },
+          {
+            "term": "length of ICU stay",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 214,
+            "end": 232
+          },
+          {
+            "term": "proportion of",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 248,
+            "end": 261
+          }
+        ],
+        "Observation": [
+          {
+            "term": "improvement",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 31,
+            "end": 42
+          },
+          {
+            "term": "reduction",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 235,
+            "end": 244
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "RANDOMISATION",
+      "Text": "Randomization will be done by someone not associated with the care or assessment of the patients by means of a computer generated random number table using an allocation ratio of 1:1:1 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "BLINDING ( MASKING ) : This is an open level study ; neither the physician nor the patients will be blinded .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "However , the primary and secondary outcome ( oxygen saturations , PaO2 / FiO2 , BP , day specific laboratory tests ) will be recorded using an objective automated method ; the study staff will not be able to influence the recording of these data .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "oxygen saturations",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 46,
+            "end": 64
+          },
+          {
+            "term": "FiO2",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 74,
+            "end": 78
+          },
+          {
+            "term": "BP",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 81,
+            "end": 83
+          },
+          {
+            "term": "day specific laboratory tests",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 86,
+            "end": 115
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "NUMBER TO BE RANDOMISED ( SAMPLE SIZE ) : No similar study has been performed previously .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "Therefore no data are available that could be used to generate a sample size calculation .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "This phase II study is required to provide some initial data on efficacy and safety that will allow design of a larger study .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "The trial will recruit 60 participants ( 20 in each arm ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "TRIAL STATUS : Protocol version 1.4 dated May 5 , 2020 and amended version 1.5 , dated June 16 , 2020 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "First case was recruited on May 27 , 2020 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "By August 10 , 2020 , the trial had recruited one-third ( 21 out of 60 ) of the participants .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "The recruitment is expected to finish by October 31 , 2020 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "TRIAL REGISTRATION : Clinicaltrials.gov ID : NCT04403477 .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "Registered 26 May , 2020 FULL PROTOCOL : The full protocol is attached as an additional file , accessible from the Trial 's website ( Additional file 1 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "In the interest in expediting dissemination of this material , the familiar formatting has been eliminated ; this letter serves as a summary of the key elements of the full protocol .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    }
+  ]
+}

@@ -33,10 +33,7 @@ def get_semtype_id(file):
 
 def convert2standard(snippets):
     sem_id = get_semtype_id(os.path.join(configure.RESOURCE_PATH, 'SemGroups.txt'))
-
     sem_map = get_map()
-
-    result = []
 
     for snippet in snippets:
         drug = []
@@ -47,7 +44,13 @@ def convert2standard(snippets):
         for entity in snippet['entities']:
             components.append(entity['cui'])
             temp_entity = {'text': entity['ngram'], 'maps_to': entity['cui'] + ':' + entity['term']}
-            sem_type = sem_map[sem_id[entity['semtypes'][0]]]
+            # sem_type = sem_map[sem_id[entity['semtypes'][0]]]
+            sem_type = None
+            for ent_type in entity['semtypes']:
+                temp_type = sem_map[sem_id[ent_type]]
+                if temp_type in ['drug', 'procedure', 'device', 'activity']:
+                    sem_type = temp_type
+                    break
 
             del entity['ngram']
             del entity['term']
@@ -79,7 +82,6 @@ def convert2standard(snippets):
             snippet['has_activity'] = activity
 
         del snippet['entities']
-        del snippet['UMLS']
         del snippet['processed']
         del snippet['representation']
 

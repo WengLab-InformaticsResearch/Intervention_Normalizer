@@ -173,7 +173,7 @@ def run(snippets, nlp):
     sem_map = get_semtype_map(sem_file)
 
     # initial extraction
-    print('*' * 25 + 'initial extraction' + '*' * 25)
+    # print('*' * 25 + 'initial extraction' + '*' * 25)
     matcher = QuickUMLS(quickUMLS_file, overlapping_criteria='score', threshold=0.8,
                         accepted_semtypes=','.join([drug_types, procedure_types, activity_types, device_types]))
 
@@ -183,7 +183,7 @@ def run(snippets, nlp):
         convert_snippet(snippet)
 
     # remapping: expand the boundary of initially extracted treatment entities
-    print('*' * 25 + 'remapping' + '*' * 25)
+    # print('*' * 25 + 'remapping' + '*' * 25)
     file = configure.QUICKUMLS_FILE
     # the overlapping criteria is changed to 'length' prior.
     matcher = QuickUMLS(file, overlapping_criteria='length', threshold=0.8,
@@ -195,12 +195,12 @@ def run(snippets, nlp):
                                                 os.path.join(resource_path,
                                                              'remapping_exclude_terms.txt'))
     for snippet in snippets:
-        print('processing:\t' + snippet['processed'])
+        # print('processing:\t' + snippet['processed'])
         if len(snippet['entities']) == 0:
             continue
-        print('before expanding:')
-        for entity in snippet['entities']:
-            print(entity['ngram'])
+        # print('before expanding:')
+        # for entity in snippet['entities']:
+        #     print(entity['ngram'])
 
         new_entities = remapping(snippet['entities'],
                                  expand_boundary(snippet['representation'],
@@ -211,9 +211,9 @@ def run(snippets, nlp):
                                  matcher, sem_map, exclude_terms)
         new_entities = sorted(new_entities, key=lambda x: x['start'])
         snippet['entities'] = new_entities
-        print('after expanding:')
-        for entity in snippet['entities']:
-            print(entity['ngram'])
+        # print('after expanding:')
+        # for entity in snippet['entities']:
+        #     print(entity['ngram'])
 
     # convert semtype set to list (for json)
     for snippet in snippets:

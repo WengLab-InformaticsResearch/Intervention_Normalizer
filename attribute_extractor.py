@@ -481,7 +481,7 @@ def run(snippets, nlp):
 
     # process the snippets
     for snippet in snippets:
-        print('processing:\t', snippet['processed'])
+        # print('processing:\t', snippet['processed'])
 
         if len(snippet['entities']) == 0:
             continue

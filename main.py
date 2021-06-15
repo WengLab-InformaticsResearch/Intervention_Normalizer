@@ -41,20 +41,35 @@ if __name__ == '__main__':
 
     file_list = [x for x in os.listdir(parsed_args.data_dir) if x.endswith(".json")]
     for file in file_list:
+        print("processing\t" + str(file))
         # preprocess data input
+        print("preprocessing...")
         snippets, json_f = preprocess_parser.run(os.path.join(parsed_args.data_dir, file), nlp)
-
+        for itm in snippets:
+            print(itm)
+        print("extracting entities...")
         # extract treatment entities
         entity_extraction.run(snippets, nlp)
+        for itm in snippets:
+            print(itm)
 
+        print("extracting relations...")
         # extract entity relationships
         relation_extractor.run(snippets)
+        for itm in snippets:
+            print(itm)
 
+        print("extracting attributes...")
         # attribute extraction and association
         attribute_extractor.run(snippets, nlp)
+        for itm in snippets:
+            print(itm)
 
         # postprocess
+        print("postprocessing...")
         postprocess.run(snippets)
+        for itm in snippets:
+            print(itm)
 
         # save, outputs
         save_json.run(file, json_f, parsed_args.output_dir)
