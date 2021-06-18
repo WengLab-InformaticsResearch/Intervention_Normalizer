@@ -1,11 +1,10 @@
-import copy
-
 import configure
 import os
 
 
 def get_map():
-    drug_types = "T116,T195,T123,T122,T103,T120,T104,T200,T196,T126,T131,T125,T129,T130,T197,T114,T109,T121,T192,T127"
+    drug_types = "T200"
+    chemical_types = "T116,T195,T123,T122,T103,T120,T104,T196,T126,T131,T125,T129,T130,T197,T114,T109,T121,T192,T127"
     procedure_types = "T060,T065,T058,T059,T063,T062,T061"
     device_types = "T203,T074,T075"
     activity_types = "T052,T053,T056,T051,T064,T055,T066,T057,T054"
@@ -13,6 +12,8 @@ def get_map():
 
     for item in drug_types.split(','):
         sem_map[item] = 'drug'
+    for item in chemical_types.split(','):
+        sem_map[item] = 'chemical'
     for item in procedure_types.split(','):
         sem_map[item] = 'procedure'
     for item in device_types.split(','):
@@ -37,6 +38,7 @@ def convert2standard(snippets):
 
     for snippet in snippets:
         drug = []
+        chemical = []
         procedure = []
         device = []
         activity = []
@@ -44,11 +46,10 @@ def convert2standard(snippets):
         for entity in snippet['entities']:
             components.append(entity['cui'])
             temp_entity = {'text': entity['ngram'], 'maps_to': entity['cui'] + ':' + entity['term']}
-            # sem_type = sem_map[sem_id[entity['semtypes'][0]]]
             sem_type = None
             for ent_type in entity['semtypes']:
                 temp_type = sem_map[sem_id[ent_type]]
-                if temp_type in ['drug', 'procedure', 'device', 'activity']:
+                if temp_type in ['drug', 'chemical', 'procedure', 'device', 'activity']:
                     sem_type = temp_type
                     break
 
@@ -65,6 +66,8 @@ def convert2standard(snippets):
 
             if sem_type == 'drug':
                 drug.append(temp_entity)
+            if sem_type == 'chemical':
+                chemical.append(temp_entity)
             if sem_type == 'procedure':
                 procedure.append(temp_entity)
             if sem_type == 'device':
@@ -74,6 +77,8 @@ def convert2standard(snippets):
 
         if len(drug) > 0:
             snippet['has_drug'] = drug
+        if len(chemical) > 0:
+            snippet['has_chemical'] = chemical
         if len(procedure) > 0:
             snippet['has_procedure'] = procedure
         if len(device) > 0:

@@ -6,8 +6,6 @@ from quickumls import QuickUMLS
 
 # concepts and terms to exclude for linking
 # the attribute and relation words would be excluded for the entity extraction
-
-
 # import the excluded terms
 def exclude_terms_helper(file):
     lst = []
@@ -156,10 +154,8 @@ def convert_snippet(snippet):
     snippet['representation'] = converted
 
 
-def run(snippets, nlp):
-    resource_path = configure.RESOURCE_PATH
-    sem_file = os.path.join(configure.RESOURCE_PATH, 'SemGroups.txt')
-    quickUMLS_file = configure.QUICKUMLS_FILE
+def run(snippets, nlp, quickUMLS_file, resource_path):
+    sem_file = os.path.join(resource_path, 'SemGroups.txt')
 
     # retrieve the predefined treatment semantic types
     drug_types, procedure_types, activity_types, device_types = configure.quickUMLS_config()
@@ -184,7 +180,7 @@ def run(snippets, nlp):
 
     # remapping: expand the boundary of initially extracted treatment entities
     # print('*' * 25 + 'remapping' + '*' * 25)
-    file = configure.QUICKUMLS_FILE
+    file = quickUMLS_file
     # the overlapping criteria is changed to 'length' prior.
     matcher = QuickUMLS(file, overlapping_criteria='length', threshold=0.8,
                         accepted_semtypes=','.join([drug_types, procedure_types, activity_types, device_types]))

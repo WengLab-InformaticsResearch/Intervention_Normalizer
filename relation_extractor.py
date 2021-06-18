@@ -39,7 +39,7 @@ def extract_relation(snippets):
                 continue
             for item in value:
                 if re.search(item, rep):
-                    print('relation found:\t', key, item)
+                    # print('relation found:\t', key, item)
                     snippet['relation'] = key.split('@')[0]
                     break
             if 'relation' in snippet.keys():

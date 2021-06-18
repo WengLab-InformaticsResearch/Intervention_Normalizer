@@ -1,6 +1,6 @@
 import re
-import os
 import json
+
 
 # read in a raw abstract, find all the abbreviation and corresponding full names, return a dict
 def extract_abbreviations_helper(doc):

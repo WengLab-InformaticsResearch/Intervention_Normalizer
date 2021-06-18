@@ -1,13 +1,13 @@
 import sys
 import configure
 import postprocess
-import preprocess_parser
+import preprocess
 import relation_extractor
 import attribute_extractor
-import save_json
-import entity_extraction
+import entity_extractor
 import os
 import argparse
+import json
 
 
 def init_argparse():
@@ -16,18 +16,24 @@ def init_argparse():
     )
     parser.add_argument("--data_dir")
     parser.add_argument("--output_dir")
+    parser.add_argument("--quickumls_dir")
     return parser.parse_args()
+
+
+def save2json(result, outfile):
+    with open(outfile, 'w') as f:
+        json.dump(result, f)
 
 
 # retrieve the directory path and file paths
 resource_path = configure.RESOURCE_PATH
-quickUMLS_file = configure.QUICKUMLS_FILE
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-    # read data_dir and output_dir
+    # read data_dir and output_dir, and quickumls_dir
     parsed_args = init_argparse()
+    quickUMLS_file = parsed_args.quickumls_dir
     
     if not os.path.isdir(parsed_args.data_dir):
         print("please input the correct data folder")
@@ -44,32 +50,23 @@ if __name__ == '__main__':
         print("processing\t" + str(file))
         # preprocess data input
         print("preprocessing...")
-        snippets, json_f = preprocess_parser.run(os.path.join(parsed_args.data_dir, file), nlp)
-        for itm in snippets:
-            print(itm)
+        snippets, json_f = preprocess.run(os.path.join(parsed_args.data_dir, file), nlp)
+
         print("extracting entities...")
         # extract treatment entities
-        entity_extraction.run(snippets, nlp)
-        for itm in snippets:
-            print(itm)
+        entity_extractor.run(snippets, nlp, quickUMLS_file, resource_path)
 
         print("extracting relations...")
         # extract entity relationships
         relation_extractor.run(snippets)
-        for itm in snippets:
-            print(itm)
 
         print("extracting attributes...")
         # attribute extraction and association
         attribute_extractor.run(snippets, nlp)
-        for itm in snippets:
-            print(itm)
 
         # postprocess
         print("postprocessing...")
         postprocess.run(snippets)
-        for itm in snippets:
-            print(itm)
 
         # save, outputs
-        save_json.run(file, json_f, parsed_args.output_dir)
+        save2json(json_f, os.path.join(parsed_args.output_dir, file))

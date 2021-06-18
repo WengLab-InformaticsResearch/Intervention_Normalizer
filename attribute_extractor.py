@@ -139,8 +139,8 @@ def find_spans(doc, attrs):
     span_map = {}
     for attr in attrs:
         span_map[attr] = find_span(doc, attr)
-        print(span_map[attr])
-        print('the span found for attribute ' + attr.text + ' is ' + span_map[attr].text)
+        # print(span_map[attr])
+        # print('the span found for attribute ' + attr.text + ' is ' + span_map[attr].text)
     # merge span
     # sort the attributes based on the start position.
     temp = sorted(span_map.items(), key=lambda x: x[1].start)
@@ -179,8 +179,8 @@ def local_associate(snippet, attrs, doc):
 
     span_map = find_spans(doc, attrs)
 
-    for key, value in span_map.items():
-        print(key.text + '\t' + value.text)
+    # for key, value in span_map.items():
+    #     print(key.text + '\t' + value.text)
 
     if snippet['entities'] is None:
         return attrs
@@ -310,7 +310,7 @@ def merge_nodes_helper(root, node1, node2):
     if ancestor == node1 or ancestor == node2:
         if ancestor == root:
             root = newNode
-            print("revised root is ", root.indexes)
+            # print("revised root is ", root.indexes)
             root.parent = root
         else:
             newNode.parent = ancestor.parent
@@ -362,11 +362,11 @@ def index_2_node(node, index):
 
 # merge nodes that belong to a single attr, and return that node
 def merge_nodes(doc, root, span):
-    print(f'start:\tmerging the attr: {span.text}')
+    # print(f'start:\tmerging the attr: {span.text}')
     nodes = []
     for token in span:
         nodes.append(index_2_node(root, token.i))
-    print("done:\tconvert token to node")
+    # print("done:\tconvert token to node")
     if len(nodes) == 0:
         print("error:\tdid not find any node for token")
     if len(nodes) == 1:
@@ -379,28 +379,28 @@ def merge_nodes(doc, root, span):
         # handle exception, when temp_node is None
         if temp_node is None:
             return temp_node, root
-        print("merging nodes:\t", [doc[i] for i in node.indexes], [doc[i] for i in temp_node.indexes])
+        # print("merging nodes:\t", [doc[i] for i in node.indexes], [doc[i] for i in temp_node.indexes])
         temp_node, root = merge_nodes_helper(root, temp_node, node)
     # again handle exceptions
     if temp_node is None:
         return temp_node, root
-    print("merge complete:\t", [doc[i] for i in temp_node.indexes])
+    # print("merge complete:\t", [doc[i] for i in temp_node.indexes])
     return temp_node, root
 
 
 # find nearest entity
 def find_nearest_entity(root, attr_node, entity_indexes, doc):
-    print("looking for the nearest intervention entity:\t", [doc[i] for i in attr_node.indexes],
-          [doc[i] for i in entity_indexes])
+    # print("looking for the nearest intervention entity:\t", [doc[i] for i in attr_node.indexes],
+    #       [doc[i] for i in entity_indexes])
     # deal with the case that there is only one entity in the snippet
     if len(entity_indexes) == 1:
-        print("nearest intervention entity found:\t", [doc[i] for i in entity_indexes])
+        # print("nearest intervention entity found:\t", [doc[i] for i in entity_indexes])
         return entity_indexes
 
     entity_nodes = []
     entity_map = {}
 
-    print(doc.text)
+    # print(doc.text)
     for index in entity_indexes:
         entity_node = index_2_node(root, index)
         if entity_node is None:
@@ -433,7 +433,7 @@ def find_nearest_entity(root, attr_node, entity_indexes, doc):
             result.append(entity_map[item[0]])
         else:
             break
-    print("nearest intervention entity found:\t", [doc[i] for i in result])
+    # print("nearest intervention entity found:\t", [doc[i] for i in result])
     return result
 
 
@@ -474,7 +474,7 @@ def reverse(attr_map, doc):
 
 
 def run(snippets, nlp):
-    print('-' * 25 + 'extracting attributes' + '-' * 25)
+    # print('-' * 25 + 'extracting attributes' + '-' * 25)
 
     # retrieve the regular expression file
     get_reg(os.path.join(configure.RESOURCE_PATH, 'attribute_patterns.txt'))
