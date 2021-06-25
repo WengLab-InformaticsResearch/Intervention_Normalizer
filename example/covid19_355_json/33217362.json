@@ -1,0 +1,901 @@
+{
+  "doc_id": "33217362",
+  "type of study": "Therapy",
+  "title": "",
+  "abstract": "Safety, tolerability, and immunogenicity of an inactivated SARS-CoV-2 vaccine in healthy adults aged 18-59 years: a randomised, double-blind, placebo-controlled, phase 1/2 clinical trial.\nWith the unprecedented morbidity and mortality associated with the COVID-19 pandemic, a vaccine against COVID-19 is urgently needed.\nWe investigated CoronaVac (Sinovac Life Sciences, Beijing, China), an inactivated vaccine candidate against COVID-19, containing inactivated severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), for its safety, tolerability and immunogenicity.\nIn this randomised, double-blind, placebo-controlled, phase 1/2 clinical trial, healthy adults aged 18-59 years were recruited from the community in Suining County of Jiangsu province, China. Adults with SARS-CoV-2 exposure or infection history, with axillary temperature above 37·0°C, or an allergic reaction to any vaccine component were excluded.\nThe experimental vaccine for the phase 1 trial was manufactured using a cell factory process (CellSTACK Cell Culture Chamber 10, Corning, Wujiang, China), whereas those for the phase 2 trial were produced through a bioreactor process (ReadyToProcess WAVE 25, GE, Umea, Sweden).\nThe phase 1 trial was done in a dose-escalating manner.\nAt screening, participants were initially separated (1:1), with no specific randomisation, into two vaccination schedule cohorts, the days 0 and 14 vaccination cohort and the days 0 and 28 vaccination cohort, and within each cohort the first 36 participants were assigned to block 1 (low dose CoronaVac [3 μg per 0·5 mL of aluminium hydroxide diluent per dose) then another 36 were assigned to block 2 (high-dose Coronavc [6 μg per 0·5 mL of aluminium hydroxide diluent per dse]).\nWithin each block, participants were randomly assigned (2:1), using block randomisation with a block size of six, to either two doses of CoronaVac or two doses of placebo.\nIn the phase 2 trial, at screening, participants were initially separated (1:1), with no specific randomisation, into the days 0 and 14 vaccination cohort and the days 0 and 28 vaccination cohort, and participants were randomly assigned (2:2:1), using block randomisation with a block size of five, to receive two doses of either low-dose CoronaVac, high-dose CoronaVac, or placebo.\nParticipants, investigators, and laboratory staff were masked to treatment allocation.\nThe primary safety endpoint was adverse reactions within 28 days after injection in all participants who were given at least one dose of study drug (safety population).\nThe primary immunogenic outcome was seroconversion rates of neutralising antibodies to live SARS-CoV-2 at day 14 after the last dose in the days 0 and 14 cohort, and at day 28 after the last dose in the days 0 and 28 cohort in participants who completed their allocated two-dose vaccination schedule (per-protocol population).\nThis trial is registered with ClinicalTrials.gov, NCT04352608, and is closed to accrual.\nBetween April 16 and April 25, 2020, 144 participants were enrolled in the phase 1 trial, and between May 3 and May 5, 2020, 600 participants were enrolled in the phase 2 trial.\n743 participants received at least one dose of investigational product (n=143 for phase 1 and n=600 for phase 2; safety population).\nIn the phase 1 trial, the incidence of adverse reactions for the days 0 and 14 cohort was seven (29%) of 24 participants in the 3 ug group, nine (38%) of 24 in the 6 μg group, and two (8%) of 24 in the placebo group, and for the days 0 and 28 cohort was three (13%) of 24 in the 3 μg group, four (17%) of 24 in the 6 μg group, and three (13%) of 23 in the placebo group.\nThe seroconversion of neutralising antibodies on day 14 after the days 0 and 14 vaccination schedule was seen in 11 (46%) of 24 participants in the 3 μg group, 12 (50%) of 24 in the 6 μg group, and none (0%) of 24 in the placebo group; whereas at day 28 after the days 0 and 28 vaccination schedule, seroconversion was seen in 20 (83%) of 24 in the 3 μg group, 19 (79%) of 24 in the 6 μg group, and one (4%) of 24 in the placebo group.\nIn the phase 2 trial, the incidence of adverse reactions for the days 0 and 14 cohort was 40 (33%) of 120 participants in the 3 μg group, 42 (35%) of 120 in the 6 μg group, and 13 (22%) of 60 in the placebo group, and for the days 0 and 28 cohort was 23 (19%) of 120 in the 3 μg group, 23 (19%) of 120 in the 6 μg group, and 11 (18%) of 60 for the placebo group.\nSeroconversion of neutralising antibodies was seen for 109 (92%) of 118 participants in the 3 μg group, 117 (98%) of 119 in the 6 μg group, and two (3%) of 60 in the placebo group at day 14 after the days 0 and 14 schedule; whereas at day 28 after the days 0 and 28 schedule, seroconversion was seen in 114 (97%) of 117 in the 3 μg group, 118 (100%) of 118 in the 6 μg group, and none (0%) of 59 in the placebo group.\nTaking safety, immunogenicity, and production capacity into account, the 3 μg dose of CoronaVac is the suggested dose for efficacy assessment in future phase 3 trials.\nChinese National Key Research and Development Program and Beijing Science and Technology Program.\nCopyright © 2021 Elsevier Ltd. All rights reserved.\n",
+  "Evidence Map": {
+    "Enrollment": [
+      {
+        "term": "healthy adults",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 83,
+        "end": 97
+      },
+      {
+        "term": "healthy",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 86,
+        "end": 93
+      },
+      {
+        "term": "SARS-CoV-2 exposure",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 212,
+        "end": 231
+      },
+      {
+        "term": "infection history",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 235,
+        "end": 252
+      },
+      {
+        "term": "axillary temperature above 37·0 ##°C",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 260,
+        "end": 296
+      }
+    ],
+    "Comparison Results": [],
+    "Study Arm 1 Results": [],
+    "Study Arm 2 Results": [],
+    "Hypothesis": []
+  },
+  "Sentence-level breakdown": [
+    {
+      "Section": "TITLE",
+      "Text": "Safety , tolerability , and immunogenicity of an inactivated SARS-CoV-2 vaccine in healthy adults aged 18-59 years : a randomised , double-blind , placebo-controlled , phase 1 / 2 clinical trial .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "healthy adults",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 83,
+            "end": 97
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "inactivated SARS-CoV-2 vaccine",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 49,
+            "end": 79
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "Safety",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 6
+          },
+          {
+            "term": "tolerability",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 9,
+            "end": 21
+          },
+          {
+            "term": "immunogenicity",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 28,
+            "end": 42
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "With the unprecedented morbidity and mortality associated with the COVID-19 pandemic , a vaccine against COVID-19 is urgently needed .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "We investigated CoronaVac ( Sinovac Life Sciences , Beijing , China ) , an inactivated vaccine candidate against COVID-19 , containing inactivated severe acute respiratory syndrome coronavirus 2 ( SARS-CoV-2 ) , for its safety , tolerability and immunogenicity .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "CoronaVac",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 16,
+            "end": 25
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "In this randomised , double-blind , placebo-controlled , phase 1 / 2 clinical trial , healthy adults aged 18-59 years were recruited from the community in Suining County of Jiangsu province , China . Adults with SARS-CoV-2 exposure or infection history , with axillary temperature above 37·0 ##°C , or an allergic reaction to any vaccine component were excluded .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "healthy",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 86,
+            "end": 93
+          },
+          {
+            "term": "SARS-CoV-2 exposure",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 212,
+            "end": 231
+          },
+          {
+            "term": "infection history",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 235,
+            "end": 252
+          },
+          {
+            "term": "axillary temperature above 37·0 ##°C",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 260,
+            "end": 296
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "The experimental vaccine for the phase 1 trial was manufactured using a cell factory process ( CellSTACK Cell Culture Chamber 10 , Corning , Wujiang , China ) , whereas those for the phase 2 trial were produced through a bioreactor process ( ReadyToProcess WAVE 25 , GE , Umea , Sweden ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "experimental vaccine",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 4,
+            "end": 24
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "The phase 1 trial was done in a dose-escalating manner .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "At screening , participants were initially separated ( 1:1 ) , with no specific randomisation , into two vaccination schedule cohorts , the days 0 and 14 vaccination cohort and the days 0 and 28 vaccination cohort , and within each cohort the first 36 participants were assigned to block 1 ( low dose CoronaVac [ 3 μg per 0·5 mL of aluminium hydroxide diluent per dose ) then another 36 were assigned to block 2 ( high-dose Coronavc [ 6 μg per 0·5 mL of aluminium hydroxide diluent per dse ] ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "low dose CoronaVac",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 292,
+            "end": 310
+          },
+          {
+            "term": "high-dose Coronavc",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 414,
+            "end": 432
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Within each block , participants were randomly assigned (2:1 ) , using block randomisation with a block size of six , to either two doses of CoronaVac or two doses of placebo .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "two doses of CoronaVac",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 128,
+            "end": 150
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "In the phase 2 trial , at screening , participants were initially separated ( 1:1 ) , with no specific randomisation , into the days 0 and 14 vaccination cohort and the days 0 and 28 vaccination cohort , and participants were randomly assigned ( 2:2:1 ) , using block randomisation with a block size of five , to receive two doses of either low-dose CoronaVac , high-dose CoronaVac , or placebo .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Participants , investigators , and laboratory staff were masked to treatment allocation .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "The primary safety endpoint was adverse reactions within 28 days after injection in all participants who were given at least one dose of study drug ( safety population ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "adverse reactions",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 32,
+            "end": 49
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "The primary immunogenic outcome was seroconversion rates of neutralising antibodies to live SARS-CoV-2 at day 14 after the last dose in the days 0 and 14 cohort , and at day 28 after the last dose in the days 0 and 28 cohort in participants who completed their allocated two-dose vaccination schedule ( per-protocol population ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "two-dose vaccination schedule",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 271,
+            "end": 300
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "seroconversion rates of neutralising antibodies to live SARS-CoV-2",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 36,
+            "end": 102
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "This trial is registered with ClinicalTrials.gov , NCT04352608 , and is closed to accrual .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "FINDINGS",
+      "Text": "Between April 16 and April 25 , 2020 , 144 participants were enrolled in the phase 1 trial , and between May 3 and May 5 , 2020 , 600 participants were enrolled in the phase 2 trial .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "FINDINGS",
+      "Text": "743 participants received at least one dose of investigational product ( n = 143 for phase 1 and n = 600 for phase 2 ; safety population ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "investigational product",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 47,
+            "end": 70
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "FINDINGS",
+      "Text": "In the phase 1 trial , the incidence of adverse reactions for the days 0 and 14 cohort was seven ( 29 % ) of 24 participants in the 3 ug group , nine ( 38 % ) of 24 in the 6 μg group , and two ( 8 % ) of 24 in the placebo group , and for the days 0 and 28 cohort was three ( 13 % ) of 24 in the 3 μg group , four ( 17 % ) of 24 in the 6 μg group , and three ( 13 % ) of 23 in the placebo group .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "3 ug",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 132,
+            "end": 136
+          },
+          {
+            "term": "6 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 172,
+            "end": 176
+          },
+          {
+            "term": "placebo",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 214,
+            "end": 221
+          },
+          {
+            "term": "3 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 295,
+            "end": 299
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "incidence of adverse reactions",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 27,
+            "end": 57
+          }
+        ],
+        "Observation": [],
+        "Count": [
+          {
+            "term": "seven ( 29 % ) of 24 participants",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 91,
+            "end": 124
+          },
+          {
+            "term": "nine ( 38 % ) of 24",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 145,
+            "end": 164
+          },
+          {
+            "term": "two ( 8 % ) of 24",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 189,
+            "end": 206
+          },
+          {
+            "term": "three ( 13 % ) of 24",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 267,
+            "end": 287
+          },
+          {
+            "term": "four",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 308,
+            "end": 312
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "3 ug",
+          "Observation": "",
+          "Count": "seven ( 29 % ) of 24 participants",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "6 μg",
+          "Observation": "",
+          "Count": "nine ( 38 % ) of 24",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "placebo",
+          "Observation": "",
+          "Count": "two ( 8 % ) of 24",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "three ( 13 % ) of 24",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "four",
+          "Outcome": "incidence of adverse reactions"
+        }
+      ]
+    },
+    {
+      "Section": "FINDINGS",
+      "Text": "The seroconversion of neutralising antibodies on day 14 after the days 0 and 14 vaccination schedule was seen in 11 ( 46 % ) of 24 participants in the 3 μg group , 12 ( 50 % ) of 24 in the 6 μg group , and none ( 0 % ) of 24 in the placebo group ; whereas at day 28 after the days 0 and 28 vaccination schedule , seroconversion was seen in 20 ( 83 % ) of 24 in the 3 μg group , 19 ( 79 % ) of 24 in the 6 μg group , and one ( 4 % ) of 24 in the placebo group .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "3 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 151,
+            "end": 155
+          },
+          {
+            "term": "6 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 189,
+            "end": 193
+          },
+          {
+            "term": "placebo",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 232,
+            "end": 239
+          },
+          {
+            "term": "3 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 151,
+            "end": 155
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "seroconversion of neutralising antibodies",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 4,
+            "end": 45
+          },
+          {
+            "term": "seroconversion",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 4,
+            "end": 18
+          }
+        ],
+        "Observation": [],
+        "Count": [
+          {
+            "term": "11 ( 46 % ) of 24 participants",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 113,
+            "end": 143
+          },
+          {
+            "term": "12 ( 50 % ) of 24",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 164,
+            "end": 181
+          },
+          {
+            "term": "none ( 0 % ) of 24",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 206,
+            "end": 224
+          },
+          {
+            "term": "20 ( 83 % ) of 24",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 340,
+            "end": 357
+          },
+          {
+            "term": "19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 378,
+            "end": 380
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "11 ( 46 % ) of 24 participants",
+          "Outcome": "seroconversion of neutralising antibodies"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "12 ( 50 % ) of 24",
+          "Outcome": "seroconversion of neutralising antibodies"
+        },
+        {
+          "Intervention": "6 μg",
+          "Observation": "",
+          "Count": "12 ( 50 % ) of 24",
+          "Outcome": "seroconversion of neutralising antibodies"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "20 ( 83 % ) of 24",
+          "Outcome": "seroconversion"
+        }
+      ]
+    },
+    {
+      "Section": "FINDINGS",
+      "Text": "In the phase 2 trial , the incidence of adverse reactions for the days 0 and 14 cohort was 40 ( 33 % ) of 120 participants in the 3 μg group , 42 ( 35 % ) of 120 in the 6 μg group , and 13 ( 22 % ) of 60 in the placebo group , and for the days 0 and 28 cohort was 23 ( 19 % ) of 120 in the 3 μg group , 23 ( 19 % ) of 120 in the 6 μg group , and 11 ( 18 % ) of 60 for the placebo group .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "3 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 130,
+            "end": 134
+          },
+          {
+            "term": "6 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 169,
+            "end": 173
+          },
+          {
+            "term": "placebo",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 211,
+            "end": 218
+          },
+          {
+            "term": "3 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 130,
+            "end": 134
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "incidence of adverse reactions",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 27,
+            "end": 57
+          }
+        ],
+        "Observation": [],
+        "Count": [
+          {
+            "term": "40 ( 33 % ) of 120 participants",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 91,
+            "end": 122
+          },
+          {
+            "term": "42 ( 35 % ) of 120",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 143,
+            "end": 161
+          },
+          {
+            "term": "13 ( 22 % ) of 60",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 186,
+            "end": 203
+          },
+          {
+            "term": "23 ( 19 % ) of 120",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 264,
+            "end": 282
+          },
+          {
+            "term": "23",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 264,
+            "end": 266
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "40 ( 33 % ) of 120 participants",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "6 μg",
+          "Observation": "",
+          "Count": "42 ( 35 % ) of 120",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "placebo",
+          "Observation": "",
+          "Count": "13 ( 22 % ) of 60",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "23 ( 19 % ) of 120",
+          "Outcome": "incidence of adverse reactions"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "23",
+          "Outcome": "incidence of adverse reactions"
+        }
+      ]
+    },
+    {
+      "Section": "FINDINGS",
+      "Text": "Seroconversion of neutralising antibodies was seen for 109 ( 92 % ) of 118 participants in the 3 μg group , 117 ( 98 % ) of 119 in the 6 μg group , and two ( 3 % ) of 60 in the placebo group at day 14 after the days 0 and 14 schedule ; whereas at day 28 after the days 0 and 28 schedule , seroconversion was seen in 114 ( 97 % ) of 117 in the 3 μg group , 118 ( 100 % ) of 118 in the 6 μg group , and none ( 0 % ) of 59 in the placebo group .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "3 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 95,
+            "end": 99
+          },
+          {
+            "term": "6 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 135,
+            "end": 139
+          },
+          {
+            "term": "placebo",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 177,
+            "end": 184
+          },
+          {
+            "term": "3 μg",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 95,
+            "end": 99
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "Seroconversion of neutralising antibodies",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 41
+          },
+          {
+            "term": "seroconversion",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 289,
+            "end": 303
+          }
+        ],
+        "Observation": [],
+        "Count": [
+          {
+            "term": "109 ( 92 % ) of 118 participants",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 55,
+            "end": 87
+          },
+          {
+            "term": "117 ( 98 % ) of 119",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 108,
+            "end": 127
+          },
+          {
+            "term": "two ( 3 % ) of 60",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 152,
+            "end": 169
+          },
+          {
+            "term": "114 ( 97 % ) of 117",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 316,
+            "end": 335
+          },
+          {
+            "term": "118",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 71,
+            "end": 74
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "109 ( 92 % ) of 118 participants",
+          "Outcome": "Seroconversion of neutralising antibodies"
+        },
+        {
+          "Intervention": "6 μg",
+          "Observation": "",
+          "Count": "117 ( 98 % ) of 119",
+          "Outcome": "Seroconversion of neutralising antibodies"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "114 ( 97 % ) of 117",
+          "Outcome": "seroconversion"
+        },
+        {
+          "Intervention": "3 μg",
+          "Observation": "",
+          "Count": "118",
+          "Outcome": "seroconversion"
+        }
+      ]
+    },
+    {
+      "Section": "INTERPRETATION",
+      "Text": "Taking safety , immunogenicity , and production capacity into account , the 3 μg dose of CoronaVac is the suggested dose for efficacy assessment in future phase 3 trials .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "dose of CoronaVac",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 81,
+            "end": 98
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "safety",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 7,
+            "end": 13
+          },
+          {
+            "term": "immunogenicity",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 16,
+            "end": 30
+          },
+          {
+            "term": "production capacity",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 37,
+            "end": 56
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "FUNDING",
+      "Text": "Chinese National Key Research and Development Program and Beijing Science and Technology Program .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "Copyright © 2021 Elsevier Ltd . All rights reserved .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    }
+  ]
+}

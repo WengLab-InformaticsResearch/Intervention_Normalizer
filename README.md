@@ -3,7 +3,7 @@
 An automated pipeline to normalize complex interventions into the computable representation to enable structured queries. 
 
 ## Prerequest
-1. Install 'QuickUMLS' locally. Reference: https://github.com/Georgetown-IR-Lab/QuickUMLS
+1. Install 'QuickUMLS' locally. Reference: https://github.com/Georgetown-IR-Lab/QuickUMLS. 1. add arguments `-LU` when creating the QuickUMLS installation to increase the recall. 2. change the default spacy model to `en_core_sci_lg` for a better performance.
 2. Install 'scispaCy' locally. Reference: https://github.com/allenai/scispacy. Note that the pre-trained model we use is "en_core_sci_lg". Make sure to follow the guidance in Reference to download this model. We also use the abbreviation component, be sure to add this component. 
 3. Check 'package-list.txt' for the full packages list.
 

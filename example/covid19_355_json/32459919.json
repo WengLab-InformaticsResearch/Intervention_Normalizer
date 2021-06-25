@@ -1,0 +1,559 @@
+{
+  "doc_id": "32459919",
+  "type of study": "Therapy",
+  "title": "",
+  "abstract": "Remdesivir for 5 or 10 Days in Patients with Severe Covid-19.\nRemdesivir is an RNA polymerase inhibitor with potent antiviral activity in vitro and efficacy in animal models of coronavirus disease 2019 (Covid-19).\nWe conducted a randomized, open-label, phase 3 trial involving hospitalized patients with confirmed SARS-CoV-2 infection, oxygen saturation of 94% or less while they were breathing ambient air, and radiologic evidence of pneumonia.\nPatients were randomly assigned in a 1:1 ratio to receive intravenous remdesivir for either 5 days or 10 days.\nAll patients received 200 mg of remdesivir on day 1 and 100 mg once daily on subsequent days.\nThe primary end point was clinical status on day 14, assessed on a 7-point ordinal scale.\nIn total, 397 patients underwent randomization and began treatment (200 patients for 5 days and 197 for 10 days).\nThe median duration of treatment was 5 days (interquartile range, 5 to 5) in the 5-day group and 9 days (interquartile range, 5 to 10) in the 10-day group.\nAt baseline, patients randomly assigned to the 10-day group had significantly worse clinical status than those assigned to the 5-day group (P = 0.02).\nBy day 14, a clinical improvement of 2 points or more on the ordinal scale occurred in 64% of patients in the 5-day group and in 54% in the 10-day group.\nAfter adjustment for baseline clinical status, patients in the 10-day group had a distribution in clinical status at day 14 that was similar to that among patients in the 5-day group (P = 0.14).\nThe most common adverse events were nausea (9% of patients), worsening respiratory failure (8%), elevated alanine aminotransferase level (7%), and constipation (7%).\nIn patients with severe Covid-19 not requiring mechanical ventilation, our trial did not show a significant difference between a 5-day course and a 10-day course of remdesivir.\nWith no placebo control, however, the magnitude of benefit cannot be determined. (Funded by Gilead Sciences; GS-US-540-5773 ClinicalTrials.gov number, NCT04292899.).\nCopyright © 2020 Massachusetts Medical Society.\n",
+  "Evidence Map": {
+    "Enrollment": [
+      {
+        "term": "Severe Covid-19",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 45,
+        "end": 60
+      },
+      {
+        "term": "hospitalized patients",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 63,
+        "end": 84
+      },
+      {
+        "term": "SARS-CoV-2 infection",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 100,
+        "end": 120
+      },
+      {
+        "term": "oxygen saturation of 94 % or less",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 123,
+        "end": 156
+      },
+      {
+        "term": "radiologic",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 201,
+        "end": 211
+      },
+      {
+        "term": "severe Covid-19",
+        "negation": "affirmed",
+        "UMLS": {},
+        "start": 17,
+        "end": 32
+      },
+      {
+        "term": "mechanical ventilation",
+        "negation": "negated",
+        "UMLS": {},
+        "start": 47,
+        "end": 69
+      }
+    ],
+    "Comparison Results": [],
+    "Study Arm 1 Results": [],
+    "Study Arm 2 Results": [],
+    "Hypothesis": []
+  },
+  "Sentence-level breakdown": [
+    {
+      "Section": "TITLE",
+      "Text": "Remdesivir for 5 or 10 Days in Patients with Severe Covid-19 .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "Severe Covid-19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 45,
+            "end": 60
+          }
+        ],
+        "Intervention": [
+          {
+            "term": "Remdesivir",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "BACKGROUND",
+      "Text": "Remdesivir is an RNA polymerase inhibitor with potent antiviral activity in vitro and efficacy in animal models of coronavirus disease 2019 ( Covid-19 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "We conducted a randomized, open-label, phase 3 trial involving hospitalized patients with confirmed SARS-CoV-2 infection , oxygen saturation of 94 % or less while they were breathing ambient air , and radiologic evidence of pneumonia .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "hospitalized patients",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 63,
+            "end": 84
+          },
+          {
+            "term": "SARS-CoV-2 infection",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 100,
+            "end": 120
+          },
+          {
+            "term": "oxygen saturation of 94 % or less",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 123,
+            "end": 156
+          },
+          {
+            "term": "radiologic",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 201,
+            "end": 211
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "Patients were randomly assigned in a 1:1 ratio to receive intravenous remdesivir for either 5 days or 10 days .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "remdesivir",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 70,
+            "end": 80
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "All patients received 200 mg of remdesivir on day 1 and 100 mg once daily on subsequent days .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "remdesivir",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 32,
+            "end": 42
+          }
+        ],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "METHODS",
+      "Text": "The primary end point was clinical status on day 14 , assessed on a 7-point ordinal scale .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "clinical status",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 26,
+            "end": 41
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "In total , 397 patients underwent randomization and began treatment ( 200 patients for 5 days and 197 for 10 days ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "The median duration of treatment was 5 days ( interquartile range , 5 to 5 ) in the 5-day group and 9 days ( interquartile range , 5 to 10 ) in the 10-day group .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "5-day",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 84,
+            "end": 89
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "median duration of treatment",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 4,
+            "end": 32
+          }
+        ],
+        "Observation": [
+          {
+            "term": "5 days",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 37,
+            "end": 43
+          },
+          {
+            "term": "9 days",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 100,
+            "end": 106
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "5-day",
+          "Observation": "5 days",
+          "Outcome": "median duration of treatment",
+          "Count": ""
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "At baseline , patients randomly assigned to the 10-day group had significantly worse clinical status than those assigned to the 5-day group ( P=0.02 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "10-day",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 48,
+            "end": 54
+          },
+          {
+            "term": "5-day",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 128,
+            "end": 133
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "clinical status",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 85,
+            "end": 100
+          }
+        ],
+        "Observation": [
+          {
+            "term": "significantly worse",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 65,
+            "end": 84
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "By day 14 , a clinical improvement of 2 points or more on the ordinal scale occurred in 64 % of patients in the 5-day group and in 54 % in the 10-day group .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "5-day",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 112,
+            "end": 117
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "clinical improvement of 2 points or more on the ordinal scale",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 14,
+            "end": 75
+          }
+        ],
+        "Observation": [],
+        "Count": [
+          {
+            "term": "64 % of patients",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 88,
+            "end": 104
+          },
+          {
+            "term": "54 %",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 131,
+            "end": 135
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "5-day",
+          "Observation": "",
+          "Count": "64 % of patients",
+          "Outcome": "clinical improvement of 2 points or more on the ordinal scale"
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "After adjustment for baseline clinical status , patients in the 10-day group had a distribution in clinical status at day 14 that was similar to that among patients in the 5-day group ( P = 0.14 ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "10-day",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 64,
+            "end": 70
+          },
+          {
+            "term": "5-day",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 172,
+            "end": 177
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "clinical status",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 30,
+            "end": 45
+          }
+        ],
+        "Observation": [
+          {
+            "term": "distribution",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 83,
+            "end": 95
+          },
+          {
+            "term": "similar",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 134,
+            "end": 141
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": "10-day",
+          "Observation": "distribution",
+          "Outcome": "clinical status",
+          "Count": ""
+        },
+        {
+          "Intervention": [
+            "10-day",
+            "5-day"
+          ],
+          "Observation": "similar",
+          "Outcome": "clinical status",
+          "Count": ""
+        }
+      ]
+    },
+    {
+      "Section": "RESULTS",
+      "Text": "The most common adverse events were nausea ( 9 % of patients ) , worsening respiratory failure ( 8 % ) , elevated alanine aminotransferase level ( 7 % ) , and constipation ( 7 % ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [
+          {
+            "term": "nausea",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 36,
+            "end": 42
+          },
+          {
+            "term": "worsening respiratory failure",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 65,
+            "end": 94
+          }
+        ],
+        "Observation": [
+          {
+            "term": "most common",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 4,
+            "end": 15
+          }
+        ],
+        "Count": [
+          {
+            "term": "9 % of patients",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 45,
+            "end": 60
+          },
+          {
+            "term": "8 %",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 97,
+            "end": 100
+          }
+        ]
+      },
+      "Evidence Propositions": [
+        {
+          "Intervention": [],
+          "Observation": "most common",
+          "Outcome": "nausea",
+          "Count": ""
+        }
+      ]
+    },
+    {
+      "Section": "CONCLUSIONS",
+      "Text": "In patients with severe Covid-19 not requiring mechanical ventilation , our trial did not show a significant difference between a 5-day course and a 10-day course of remdesivir .",
+      "Evidence Elements": {
+        "Participant": [
+          {
+            "term": "severe Covid-19",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 17,
+            "end": 32
+          },
+          {
+            "term": "mechanical ventilation",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 47,
+            "end": 69
+          }
+        ],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [
+          {
+            "term": "significant difference",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 97,
+            "end": 119
+          }
+        ],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "CONCLUSIONS",
+      "Text": "With no placebo control , however , the magnitude of benefit cannot be determined . ( Funded by Gilead Sciences ; GS-US-540-5773 ClinicalTrials.gov number , NCT04292899 . ) .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [
+          {
+            "term": "placebo control",
+            "negation": "negated",
+            "UMLS": {},
+            "start": 8,
+            "end": 23
+          }
+        ],
+        "Outcome": [
+          {
+            "term": "magnitude of benefit",
+            "negation": "affirmed",
+            "UMLS": {},
+            "start": 40,
+            "end": 60
+          }
+        ],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    },
+    {
+      "Section": "UNKNOWN",
+      "Text": "Copyright © 2020 Massachusetts Medical Society .",
+      "Evidence Elements": {
+        "Participant": [],
+        "Intervention": [],
+        "Outcome": [],
+        "Observation": [],
+        "Count": []
+      },
+      "Evidence Propositions": []
+    }
+  ]
+}
